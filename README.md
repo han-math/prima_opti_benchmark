@@ -16,17 +16,21 @@ prima_opti_benchmark/
 ├── report.pdf                      # Compiled test report
 ├── test_rosenbrock_run.m           # Task 1: Rosenbrock function tests
 ├── precision_benchmark.m           # Task 2: Precision benchmark
-├── setup_test.m                    # PRIMA setup debug helper
+├── generate_figures.m              # Generate all figures from .mat results
+├── mex_config/                     # MEX compiler configuration (reference)
+│   ├── gfortran.xml                #   MATLAB MEX config for GNU Fortran
+│   └── gfortran-wrapper            #   NAG-to-gfortran flag translation
 ├── prima/                          # PRIMA library (clone from GitHub)
 ├── optiprofiler/                   # OptiProfiler library
 ├── results/
 │   ├── rosenbrock_results/         # Rosenbrock test results
 │   │   ├── rosenbrock_results.mat
 │   │   └── rosenbrock_log.txt
-│   └── benchmark_results/          # Precision benchmark results
-│       ├── precision_results.mat
-│       ├── precision_summary.txt
-│       └── precision_benchmark_log.txt
+│   ├── benchmark_results/          # Precision benchmark results
+│   │   ├── precision_results.mat
+│   │   ├── precision_summary.txt
+│   │   └── precision_benchmark_log.txt
+│   └── figures/                    # Generated figures (PDF)
 └── .gitignore
 ```
 
