@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config
+    Name="GNU Fortran (Homebrew)"
+    ShortName="gfortran"
+    Manufacturer="GNU"
+    Version="$GFORTRAN_VERSION"
+    Language="FORTRAN"
+    Priority="A"
+    Location="$GFORTRAN_ROOT" >
+    <Details
+        CompilerExecutable="$FC"
+        CompilerDefines="$DEFINES"
+        CompilerFlags="$FFLAGS"
+        OptimizationFlags="$FOPTIMFLAGS"
+        DebugFlags="$FDEBUGFLAGS"
+        IncludeFlags="$INCLUDE"
+        LinkerLibraries="$LINKLIBS"
+        LinkerOptimizationFlags="$LDOPTIMFLAGS"
+        LinkerDebugFlags="$LDDEBUGFLAGS"
+        CompilerDefineFormatter="-D%s"
+        LinkerLibrarySwitchFormatter="-l%s"
+        LinkerPathFormatter="-L%s"
+        />
+    <vars
+        CMDLINE1="$FC -c $DEFINES $INCLUDE $FFLAGS $OPTIM $SRC -o $OBJ"
+        CMDLINE2="$LD $LDFLAGS $OBJS $LINKOPTIM $LINKEXPORTVER $CLIBS $LDDYNAMICLIB $LINKLIBS -o $EXE"
+
+        FC="/Users/xiaohan/.local/nagfor-wrapper/gfortran-wrapper"
+        DEFINES="$MATLABMEX"
+        MATLABMEX="-DMATLAB_MEX_FILE"
+        MACOSX_DEPLOYMENT_TARGET="12.0"
+        FFLAGS="-D__LP64__ -DMATLAB_MEX_FILE -O2 -w -cpp -fdefault-integer-8  -fPIC -fno-omit-frame-pointer"
+        INCLUDE="-I&quot;$MATLABROOT/extern/include&quot; -I&quot;$MATLABROOT/simulink/include&quot;"
+        FOPTIMFLAGS="-O2"
+        FDEBUGFLAGS="-g"
+
+        LD="/Users/xiaohan/.local/nagfor-wrapper/gfortran-wrapper"
+        LDFLAGS="-arch arm64 -Wl,-twolevel_namespace -undefined error -Wl,-force_load_swift_libs"
+        LDDYNAMICLIB="-dynamiclib"
+        LINKEXPORTVER="-Wl,-exported_symbols_list,&quot;$MATLABROOT/extern/lib/maca64/fortran_exportsmexfileversion.map&quot;"
+        LINKLIBS="-L&quot;$MATLABROOT/bin/maca64&quot; -lmx -lmex -lmat"
+        LDOPTIMFLAGS="-O"
+        LDDEBUGFLAGS="-g"
+        OBJEXT=".o"
+        LDEXT=".mexmaca64"
+
+        SETENV="FC=&quot;$FC&quot;
+                FFLAGS=&quot;$FFLAGS $DEFINES&quot;
+                FOPTIMFLAGS=&quot;$FOPTIMFLAGS&quot;
+                FDEBUGFLAGS=&quot;$FDEBUGFLAGS&quot;
+                LD=&quot;$LD&quot;
+                LDXX=&quot;$LDXX&quot;
+                LDFLAGS=&quot;$LDFLAGS $LINKLIBS $LINKEXPORT&quot;
+                LDDEBUGFLAGS=&quot;$LDDEBUGFLAGS&quot;"
+    />
+    <client>
+        <engine
+            LINKLIBS="$LINKLIBS -leng"
+            LDDYNAMICLIB=""
+            LINKEXPORT=""
+            LINKEXPORTVER=""
+            LDEXT=""
+            />
+    </client>
+    <locationFinder>
+        <GFORTRAN_ROOT>
+            <or>
+                <and>
+                    <envVarExists name="GFORTRAN_ROOT"/>
+                    <fileExists name="$$/bin/gfortran"/>
+                    <dirExists name="$$"/>
+                </and>
+                <and>
+                    <cmdReturns name="which gfortran"/>
+                    <dirExists name="$$"/>
+                </and>
+            </or>
+        </GFORTRAN_ROOT>
+        <GFORTRAN_VERSION>
+            <or>
+                <and>
+                    <envVarExists name="GFORTRAN_ROOT"/>
+                    <cmdReturns name="$$/bin/gfortran -dumpversion 2>&amp;1"/>
+                </and>
+                <and>
+                    <cmdReturns name="which gfortran"/>
+                    <cmdReturns name="gfortran -dumpversion 2>&amp;1"/>
+                </and>
+            </or>
+        </GFORTRAN_VERSION>
+    </locationFinder>
+</config>

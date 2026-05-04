@@ -1,0 +1,29 @@
+#!/bin/bash
+# Wrapper to translate NAG-specific flags to gfortran equivalents
+args=()
+for arg in "$@"; do
+    case "$arg" in
+        -i8)
+            args+=("-fdefault-integer-8")
+            ;;
+        -fpp)
+            args+=("-cpp")
+            ;;
+        -dcfuns)
+            # NAG-specific, skip
+            ;;
+        -compatible)
+            # NAG-specific, skip
+            ;;
+        -Wc,-target,arm64-apple-macos11)
+            # NAG-specific, skip
+            ;;
+        -quiet)
+            args+=("-w")
+            ;;
+        *)
+            args+=("$arg")
+            ;;
+    esac
+done
+exec /opt/homebrew/bin/gfortran "${args[@]}"
