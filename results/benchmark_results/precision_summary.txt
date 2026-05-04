@@ -1,0 +1,27 @@
+PRIMA Precision Comparison Summary
+==================================
+
+Feature: plain
+----------------------------------
+  single      : n=152  median(fx)=4.4380e+00  mean(nf)=405.9  mean(t)=0.02s
+  double      : n=152  median(fx)=4.4380e+00  mean(nf)=379.0  mean(t)=0.01s
+  quadruple   : n=152  median(fx)=4.4380e+00  mean(nf)=386.0  mean(t)=0.25s
+  Double vs Single:
+    fx ratio: mean=42253659.0634 median=1.0000
+    nf ratio: mean=0.9281 median=0.9446
+  Double vs Quadruple:
+    fx ratio: mean=92447365.4868 median=1.0000
+    nf ratio: mean=1.0059 median=1.0000
+
+Feature: noisy
+----------------------------------
+  single      : n=304  median(fx)=4.4467e+00  mean(nf)=401.4  mean(t)=0.01s
+  double      : n=304  median(fx)=4.4468e+00  mean(nf)=396.1  mean(t)=0.01s
+  quadruple   : n=304  median(fx)=5.2141e+00  mean(nf)=373.7  mean(t)=0.23s
+  Double vs Single:
+    fx ratio: mean=379539417.3981 median=1.0000
+    nf ratio: mean=1.0106 median=1.0000
+  Double vs Quadruple:
+    fx ratio: mean=1357659838.0194 median=1.0000
+    nf ratio: mean=1.0328 median=1.0000
+

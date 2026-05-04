@@ -1,0 +1,26 @@
+=============================================================
+  Rosenbrock Function Optimization -- PRIMA Solver
+=============================================================
+
+
+==========================================
+  Dimension n = 2
+  Initial point: x0 = [-1, -1, ..., -1]
+==========================================
+
+--- Case 1: Unconstrained ---
+[Warning: prima: fortran = true but the Fortran MEX function is not available
+for the modern variant of uobyqa with precision double; fortran is reset to
+false.] 
+{Unrecognized function or variable 'uobyqa_dOm'.
+
+Error in uobyqa (line 288)
+            fsolver(fun, x0, rhobeg, rhoend, eta1, eta2, gamma1, gamma2, ftarget, maxfun, ...
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in prima (line 481)
+            [x, fx, exitflag, output] = uobyqa(fun, x0, options);
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in test_rosenbrock_standalone (line 56)
+        [x1, fx1, exitflag1, output1] = prima(@chrosen, x0);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

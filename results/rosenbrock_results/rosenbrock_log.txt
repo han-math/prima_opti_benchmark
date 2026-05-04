@@ -1,0 +1,504 @@
+Rosenbrock Test Started: 04-May-2026 01:11:34
+
+>>> Testing n = 2
+  Case 1: Unconstrained
+{Unrecognized field name "nf".
+
+Error in test_rosenbrock_run (line 26)
+            'nf', output.nf, 'message', output.message);
+                  ^^^^^^^^^
+Error in run (line 112)
+evalin('caller', strcat(scriptStem, ';'));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+Rosenbrock Test Started: 04-May-2026 01:12:19
+
+>>> Testing n = 2
+  Case 1: Unconstrained
+    fx=1.471357e-16  nf=46  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.000000e+00  nf=24  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.390550e-01  nf=45  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=4.437878e-02  nf=64  exitflag=0
+
+>>> Testing n = 5
+  Case 1: Unconstrained
+    fx=2.954087e-19  nf=172  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=4.000000e+00  nf=62  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=2.285622e+00  nf=103  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.315425e+00  nf=155  exitflag=0
+
+>>> Testing n = 10
+  Case 1: Unconstrained
+    fx=1.127256e-11  nf=331  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=9.000000e+00  nf=128  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=7.166055e+00  nf=273  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=5.204283e+00  nf=352  exitflag=0
+
+>>> Testing n = 20
+  Case 1: Unconstrained
+    fx=8.675153e-12  nf=1010  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.900000e+01  nf=220  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.703173e+01  nf=653  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.332503e+01  nf=641  exitflag=0
+
+=== Rosenbrock Tests Complete ===
+Rosenbrock Test Started: 04-May-2026 13:31:19
+
+>>> Testing n = 2
+  Case 1: Unconstrained
+    fx=2.000861e-17  nf=75  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.000000e+00  nf=31  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.456070e-01  nf=88  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=4.567481e-02  nf=480  exitflag=0
+
+>>> Testing n = 5
+  Case 1: Unconstrained
+    fx=3.713272e-15  nf=344  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=4.000000e+00  nf=83  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=2.427458e+00  nf=129  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.503083e+00  nf=400  exitflag=0
+
+>>> Testing n = 10
+  Case 1: Unconstrained
+    fx=2.227631e-11  nf=944  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=9.000000e+00  nf=173  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=7.421543e+00  nf=375  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=6.426807e+00  nf=883  exitflag=0
+
+>>> Testing n = 20
+  Case 1: Unconstrained
+    fx=1.586417e-10  nf=2796  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.900000e+01  nf=538  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.741074e+01  nf=787  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.632725e+01  nf=1737  exitflag=0
+
+=== Rosenbrock Tests Complete ===
+Rosenbrock Test Started: 04-May-2026 13:43:21
+
+>>> Testing n = 2
+  Case 1: Unconstrained
+    fx=2.000861e-17  nf=75  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.000000e+00  nf=31  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.456070e-01  nf=88  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=4.567481e-02  nf=480  exitflag=0
+
+>>> Testing n = 3
+  Case 1: Unconstrained
+    fx=1.814450e-14  nf=146  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=2.000000e+00  nf=49  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=7.760877e-01  nf=59  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=2.449256e-01  nf=368  exitflag=0
+
+>>> Testing n = 4
+  Case 1: Unconstrained
+    fx=2.361458e-17  nf=230  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=3.000000e+00  nf=58  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.450674e+00  nf=119  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=7.091977e-01  nf=389  exitflag=0
+
+>>> Testing n = 5
+  Case 1: Unconstrained
+    fx=3.713272e-15  nf=344  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=4.000000e+00  nf=83  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=2.427458e+00  nf=129  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.503083e+00  nf=400  exitflag=0
+
+>>> Testing n = 6
+  Case 1: Unconstrained
+    fx=2.408758e-17  nf=385  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=5.000000e+00  nf=105  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=3.425957e+00  nf=217  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=2.467509e+00  nf=590  exitflag=0
+
+>>> Testing n = 7
+  Case 1: Unconstrained
+    fx=1.316115e-18  nf=577  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=6.000000e+00  nf=109  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=4.424847e+00  nf=219  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=3.456692e+00  nf=662  exitflag=0
+
+>>> Testing n = 8
+  Case 1: Unconstrained
+    fx=1.496312e-14  nf=708  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=7.000000e+00  nf=143  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=5.423742e+00  nf=367  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=4.446719e+00  nf=780  exitflag=0
+
+>>> Testing n = 9
+  Case 1: Unconstrained
+    fx=1.245285e-11  nf=779  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=8.000000e+00  nf=186  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=6.422641e+00  nf=315  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=5.436763e+00  nf=807  exitflag=0
+
+>>> Testing n = 10
+  Case 1: Unconstrained
+    fx=2.227631e-11  nf=944  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=9.000000e+00  nf=173  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=7.421543e+00  nf=375  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=6.426807e+00  nf=883  exitflag=0
+
+>>> Testing n = 11
+  Case 1: Unconstrained
+    fx=5.220154e-11  nf=1016  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.000000e+01  nf=187  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=9.844757e+00  nf=526  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=7.416852e+00  nf=956  exitflag=0
+
+>>> Testing n = 12
+  Case 1: Unconstrained
+    fx=5.676814e-11  nf=1279  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.100000e+01  nf=251  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=9.419356e+00  nf=461  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=8.406896e+00  nf=1068  exitflag=0
+
+>>> Testing n = 13
+  Case 1: Unconstrained
+    fx=5.030935e-10  nf=1348  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.200000e+01  nf=237  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.041827e+01  nf=571  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=9.396941e+00  nf=1140  exitflag=0
+
+>>> Testing n = 14
+  Case 1: Unconstrained
+    fx=3.315949e-10  nf=1505  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.300000e+01  nf=215  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.141718e+01  nf=579  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.038699e+01  nf=1311  exitflag=0
+
+>>> Testing n = 15
+  Case 1: Unconstrained
+    fx=3.986624e+00  nf=1714  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.400000e+01  nf=308  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.241610e+01  nf=442  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.137703e+01  nf=1277  exitflag=0
+
+>>> Testing n = 16
+  Case 1: Unconstrained
+    fx=1.784364e-10  nf=1892  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.500000e+01  nf=350  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.341502e+01  nf=436  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.236707e+01  nf=1463  exitflag=0
+
+>>> Testing n = 17
+  Case 1: Unconstrained
+    fx=6.255664e-11  nf=2264  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.600000e+01  nf=348  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.441394e+01  nf=491  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.335712e+01  nf=1527  exitflag=0
+
+>>> Testing n = 18
+  Case 1: Unconstrained
+    fx=8.617581e-11  nf=2344  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.700000e+01  nf=312  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.541287e+01  nf=460  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.434716e+01  nf=1565  exitflag=0
+
+>>> Testing n = 19
+  Case 1: Unconstrained
+    fx=7.789675e-11  nf=2712  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.800000e+01  nf=337  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.641180e+01  nf=829  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.533721e+01  nf=1579  exitflag=0
+
+>>> Testing n = 20
+  Case 1: Unconstrained
+    fx=1.586417e-10  nf=2796  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.900000e+01  nf=538  exitflag=0
+  Case 3: Linear (sum(x) <= 1)
+    fx=1.741074e+01  nf=787  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1)
+    fx=1.632725e+01  nf=1737  exitflag=0
+
+=== Rosenbrock Tests Complete ===
+Rosenbrock Test Started: 04-May-2026 14:51:08
+
+>>> Testing n = 2
+  Case 1: Unconstrained
+    fx=2.000861e-17  nf=75  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.000000e+00  nf=31  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.456070e-01  nf=47  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=4.567481e-02  nf=572  exitflag=0
+
+>>> Testing n = 3
+  Case 1: Unconstrained
+    fx=1.814450e-14  nf=146  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=2.000000e+00  nf=49  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=6.393132e-01  nf=49  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=2.449256e-01  nf=339  exitflag=0
+
+>>> Testing n = 4
+  Case 1: Unconstrained
+    fx=2.361458e-17  nf=230  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=3.000000e+00  nf=58  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.450674e+00  nf=62  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=7.091977e-01  nf=307  exitflag=0
+
+>>> Testing n = 5
+  Case 1: Unconstrained
+    fx=3.713272e-15  nf=344  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=4.000000e+00  nf=83  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=2.431622e+00  nf=71  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.503083e+00  nf=405  exitflag=0
+
+>>> Testing n = 6
+  Case 1: Unconstrained
+    fx=2.408758e-17  nf=385  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=5.000000e+00  nf=105  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=3.430388e+00  nf=92  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=2.467509e+00  nf=475  exitflag=0
+
+>>> Testing n = 7
+  Case 1: Unconstrained
+    fx=1.316115e-18  nf=577  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=6.000000e+00  nf=109  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=4.429286e+00  nf=103  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=3.456692e+00  nf=625  exitflag=0
+
+>>> Testing n = 8
+  Case 1: Unconstrained
+    fx=1.496312e-14  nf=708  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=7.000000e+00  nf=143  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=5.428188e+00  nf=128  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=4.446719e+00  nf=652  exitflag=0
+
+>>> Testing n = 9
+  Case 1: Unconstrained
+    fx=1.245285e-11  nf=779  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=8.000000e+00  nf=186  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=6.427093e+00  nf=139  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=5.436763e+00  nf=778  exitflag=0
+
+>>> Testing n = 10
+  Case 1: Unconstrained
+    fx=2.227631e-11  nf=944  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=9.000000e+00  nf=173  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=7.426002e+00  nf=169  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=6.426807e+00  nf=860  exitflag=0
+
+>>> Testing n = 11
+  Case 1: Unconstrained
+    fx=5.220154e-11  nf=1016  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.000000e+01  nf=187  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=8.424913e+00  nf=190  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=7.416852e+00  nf=871  exitflag=0
+
+>>> Testing n = 12
+  Case 1: Unconstrained
+    fx=5.676814e-11  nf=1279  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.100000e+01  nf=251  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=9.423828e+00  nf=213  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=8.406896e+00  nf=896  exitflag=0
+
+>>> Testing n = 13
+  Case 1: Unconstrained
+    fx=5.030935e-10  nf=1348  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.200000e+01  nf=237  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.042275e+01  nf=219  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=9.396941e+00  nf=1035  exitflag=0
+
+>>> Testing n = 14
+  Case 1: Unconstrained
+    fx=3.315949e-10  nf=1505  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.300000e+01  nf=215  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.142167e+01  nf=231  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.038699e+01  nf=1137  exitflag=0
+
+>>> Testing n = 15
+  Case 1: Unconstrained
+    fx=3.986624e+00  nf=1714  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.400000e+01  nf=308  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.242059e+01  nf=252  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.137703e+01  nf=1231  exitflag=0
+
+>>> Testing n = 16
+  Case 1: Unconstrained
+    fx=1.784364e-10  nf=1892  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.500000e+01  nf=350  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.341952e+01  nf=245  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.236707e+01  nf=1223  exitflag=0
+
+>>> Testing n = 17
+  Case 1: Unconstrained
+    fx=6.255664e-11  nf=2264  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.600000e+01  nf=348  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.441845e+01  nf=279  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.335712e+01  nf=1329  exitflag=0
+
+>>> Testing n = 18
+  Case 1: Unconstrained
+    fx=8.617581e-11  nf=2344  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.700000e+01  nf=312  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.541738e+01  nf=301  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.434716e+01  nf=1475  exitflag=0
+
+>>> Testing n = 19
+  Case 1: Unconstrained
+    fx=7.789675e-11  nf=2712  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.800000e+01  nf=337  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.641632e+01  nf=304  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.533721e+01  nf=1572  exitflag=0
+
+>>> Testing n = 20
+  Case 1: Unconstrained
+    fx=1.586417e-10  nf=2796  exitflag=0
+  Case 2: Bound (x <= 0)
+    fx=1.900000e+01  nf=538  exitflag=0
+  Case 3: Linear (sum(x) <= 1, x >= 0)
+[Warning: prima: x0 is revised to satisfy the constraints better.] 
+    fx=1.741526e+01  nf=320  exitflag=0
+  Case 4: Nonlinear (||x||^2 <= 1, x >= 0)
+    fx=1.632725e+01  nf=1722  exitflag=0
+
+=== Rosenbrock Tests Complete ===

@@ -1,0 +1,37 @@
+# External dependencies (clone separately — too large for GitHub)
+prima/
+optiprofiler/
+
+# MATLAB artifacts
+*.asv
+*.m~
+*.mex*
+*.mlx
+*.mlapp
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*-blx.bib
+*.run.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.claude/
+
+# Archives
+*.zip
+*.tar.gz

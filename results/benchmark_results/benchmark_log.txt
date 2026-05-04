@@ -1,0 +1,2210 @@
+Benchmark started: 04-May-2026 01:15:26
+
+>>> Benchmark A1: double vs single, feature=plain
+INFO: Since the option "score_only" is true, we will not draw any history plots of the problems (the option "draw_hist_plots" is set to "none").
+
+INFO: Start testing with the following options
+INFO: - Solvers: prima_double, prima_single
+INFO: - Problem libraries: s2mpj
+INFO: - Problem types: ubln
+INFO: - Problem dimension range: [2, 20]
+INFO: - Problem mb range: [0, 10]
+INFO: - Problem mlcon range: [0, 10]
+INFO: - Problem mnlcon range: [0, 10]
+INFO: - Problem mcon range: [0, 10]
+INFO: - Feature stamp: plain
+
+INFO: Start testing problems from the problem library "s2mpj" with the "plain" feature.
+
+INFO: More information about the S2MPJ problem library can be found at
+https://github.com/GrattonToint/S2MPJ
+
+INFO: There are 515 problems from "s2mpj" to test.
+
+INFO: Loading problem   AIRCRFTB    from "s2mpj".
+
+INFO: Start  solving    AIRCRFTB    with prima_double (run  1/ 1).
+INFO: Finish solving    AIRCRFTB    with prima_double (run  1/ 1) in 2.89 seconds.
+INFO: Output result for AIRCRFTB    with prima_double (run  1/ 1): f = 4.9358e-16, maxcv = 0.0000e+00.
+INFO: Best   result for AIRCRFTB    with prima_double (run  1/ 1): f = 4.9358e-16, maxcv = 0.0000e+00.
+
+INFO: Start  solving    AIRCRFTB    with prima_single (run  1/ 1).
+INFO: Finish solving    AIRCRFTB    with prima_single (run  1/ 1) in 3.54 seconds.
+INFO: Output result for AIRCRFTB    with prima_single (run  1/ 1): f = 4.2504e-14, maxcv = 0.0000e+00.
+INFO: Best   result for AIRCRFTB    with prima_single (run  1/ 1): f = 4.2504e-14, maxcv = 0.0000e+00.
+
+INFO: Loading problem   ALJAZZAF    from "s2mpj".
+
+INFO: Start  solving    ALJAZZAF    with prima_double (run  1/ 1).
+INFO: Finish solving    ALJAZZAF    with prima_double (run  1/ 1) in 3.98 seconds.
+INFO: Output result for ALJAZZAF    with prima_double (run  1/ 1): f = 1.1126e+02, maxcv = 9.7319e-01.
+INFO: Best   result for ALJAZZAF    with prima_double (run  1/ 1): f = 4.7222e+01, maxcv = 9.7319e-01.
+
+INFO: Start  solving    ALJAZZAF    with prima_single (run  1/ 1).
+INFO: Finish solving    ALJAZZAF    with prima_single (run  1/ 1) in 4.45 seconds.
+INFO: Output result for ALJAZZAF    with prima_single (run  1/ 1): f = 8.8934e+01, maxcv = 4.7549e-01.
+INFO: Best   result for ALJAZZAF    with prima_single (run  1/ 1): f = 3.3239e+01, maxcv = 4.7549e-01.
+
+INFO: Loading problem   ALLINIT     from "s2mpj".
+
+INFO: Start  solving    ALLINIT     with prima_double (run  1/ 1).
+INFO: Finish solving    ALLINIT     with prima_double (run  1/ 1) in 0.49 seconds.
+INFO: Output result for ALLINIT     with prima_double (run  1/ 1): f = 1.6706e+01, maxcv = 0.0000e+00.
+INFO: Best   result for ALLINIT     with prima_double (run  1/ 1): f = 1.6706e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    ALLINIT     with prima_single (run  1/ 1).
+INFO: Finish solving    ALLINIT     with prima_single (run  1/ 1) in 1.30 seconds.
+INFO: Output result for ALLINIT     with prima_single (run  1/ 1): f = 1.6706e+01, maxcv = 0.0000e+00.
+INFO: Best   result for ALLINIT     with prima_single (run  1/ 1): f = 1.6706e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   ALLINITA    from "s2mpj".
+
+INFO: Start  solving    ALLINITA    with prima_double (run  1/ 1).
+INFO: Finish solving    ALLINITA    with prima_double (run  1/ 1) in 0.13 seconds.
+INFO: Output result for ALLINITA    with prima_double (run  1/ 1): f = 3.3299e+01, maxcv = 2.6288e-10.
+INFO: Best   result for ALLINITA    with prima_double (run  1/ 1): f = 2.9753e+01, maxcv = 2.7756e-17.
+
+INFO: Start  solving    ALLINITA    with prima_single (run  1/ 1).
+INFO: Finish solving    ALLINITA    with prima_single (run  1/ 1) in 0.08 seconds.
+INFO: Output result for ALLINITA    with prima_single (run  1/ 1): f = 3.3299e+01, maxcv = 1.4208e-08.
+INFO: Best   result for ALLINITA    with prima_single (run  1/ 1): f = 2.9753e+01, maxcv = 1.4208e-08.
+
+INFO: Loading problem   ALLINITC    from "s2mpj".
+
+INFO: Start  solving    ALLINITC    with prima_double (run  1/ 1).
+INFO: Finish solving    ALLINITC    with prima_double (run  1/ 1) in 0.23 seconds.
+INFO: Output result for ALLINITC    with prima_double (run  1/ 1): f = 3.0492e+01, maxcv = 9.4692e-09.
+INFO: Best   result for ALLINITC    with prima_double (run  1/ 1): f = 2.7991e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    ALLINITC    with prima_single (run  1/ 1).
+INFO: Finish solving    ALLINITC    with prima_single (run  1/ 1) in 0.21 seconds.
+INFO: Output result for ALLINITC    with prima_single (run  1/ 1): f = 3.0586e+01, maxcv = 1.2595e-08.
+INFO: Best   result for ALLINITC    with prima_single (run  1/ 1): f = 2.9753e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   ALLINITU    from "s2mpj".
+
+INFO: Start  solving    ALLINITU    with prima_double (run  1/ 1).
+INFO: Finish solving    ALLINITU    with prima_double (run  1/ 1) in 0.36 seconds.
+INFO: Output result for ALLINITU    with prima_double (run  1/ 1): f = 5.7444e+00.
+INFO: Best   result for ALLINITU    with prima_double (run  1/ 1): f = 5.7444e+00.
+
+INFO: Start  solving    ALLINITU    with prima_single (run  1/ 1).
+INFO: Finish solving    ALLINITU    with prima_single (run  1/ 1) in 0.49 seconds.
+INFO: Output result for ALLINITU    with prima_single (run  1/ 1): f = 5.7444e+00.
+INFO: Best   result for ALLINITU    with prima_single (run  1/ 1): f = 5.7444e+00.
+
+INFO: Loading problem   ALSOTAME    from "s2mpj".
+
+INFO: Start  solving    ALSOTAME    with prima_double (run  1/ 1).
+INFO: Finish solving    ALSOTAME    with prima_double (run  1/ 1) in 0.39 seconds.
+INFO: Output result for ALSOTAME    with prima_double (run  1/ 1): f = 4.7009e-02, maxcv = 1.1102e-16.
+INFO: Best   result for ALSOTAME    with prima_double (run  1/ 1): f = 1.3087e-02, maxcv = 0.0000e+00.
+
+INFO: Start  solving    ALSOTAME    with prima_single (run  1/ 1).
+INFO: Finish solving    ALSOTAME    with prima_single (run  1/ 1) in 0.71 seconds.
+INFO: Output result for ALSOTAME    with prima_single (run  1/ 1): f = 4.7009e-02, maxcv = 6.5503e-09.
+INFO: Best   result for ALSOTAME    with prima_single (run  1/ 1): f = 1.3087e-02, maxcv = 2.5247e-09.
+
+INFO: Loading problem   ARGLINB     from "s2mpj".
+
+INFO: Start  solving    ARGLINB     with prima_double (run  1/ 1).
+INFO: Finish solving    ARGLINB     with prima_double (run  1/ 1) in 1.75 seconds.
+INFO: Output result for ARGLINB     with prima_double (run  1/ 1): f = 9.9625e+01.
+INFO: Best   result for ARGLINB     with prima_double (run  1/ 1): f = 9.9625e+01.
+
+INFO: Start  solving    ARGLINB     with prima_single (run  1/ 1).
+INFO: Finish solving    ARGLINB     with prima_single (run  1/ 1) in 2.44 seconds.
+INFO: Output result for ARGLINB     with prima_single (run  1/ 1): f = 9.9625e+01.
+INFO: Best   result for ARGLINB     with prima_single (run  1/ 1): f = 9.9625e+01.
+
+INFO: Loading problem   ARGTRIGLS   from "s2mpj".
+
+INFO: Start  solving    ARGTRIGLS   with prima_double (run  1/ 1).
+INFO: Finish solving    ARGTRIGLS   with prima_double (run  1/ 1) in 1.57 seconds.
+INFO: Output result for ARGTRIGLS   with prima_double (run  1/ 1): f = 1.1425e-11.
+INFO: Best   result for ARGTRIGLS   with prima_double (run  1/ 1): f = 1.1425e-11.
+
+INFO: Start  solving    ARGTRIGLS   with prima_single (run  1/ 1).
+INFO: Finish solving    ARGTRIGLS   with prima_single (run  1/ 1) in 1.63 seconds.
+INFO: Output result for ARGTRIGLS   with prima_single (run  1/ 1): f = 3.3096e-12.
+INFO: Best   result for ARGTRIGLS   with prima_single (run  1/ 1): f = 3.3096e-12.
+
+INFO: Loading problem   ARWHEAD     from "s2mpj".
+
+INFO: Start  solving    ARWHEAD     with prima_double (run  1/ 1).
+INFO: Finish solving    ARWHEAD     with prima_double (run  1/ 1) in 0.59 seconds.
+INFO: Output result for ARWHEAD     with prima_double (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for ARWHEAD     with prima_double (run  1/ 1): f = 0.0000e+00.
+
+INFO: Start  solving    ARWHEAD     with prima_single (run  1/ 1).
+INFO: Finish solving    ARWHEAD     with prima_single (run  1/ 1) in 0.58 seconds.
+INFO: Output result for ARWHEAD     with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for ARWHEAD     with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   BARD        from "s2mpj".
+
+INFO: Start  solving    BARD        with prima_double (run  1/ 1).
+INFO: Finish solving    BARD        with prima_double (run  1/ 1) in 0.36 seconds.
+INFO: Output result for BARD        with prima_double (run  1/ 1): f = 8.2149e-03.
+INFO: Best   result for BARD        with prima_double (run  1/ 1): f = 8.2149e-03.
+
+INFO: Start  solving    BARD        with prima_single (run  1/ 1).
+INFO: Finish solving    BARD        with prima_single (run  1/ 1) in 0.40 seconds.
+INFO: Output result for BARD        with prima_single (run  1/ 1): f = 8.2149e-03.
+INFO: Best   result for BARD        with prima_single (run  1/ 1): f = 8.2149e-03.
+
+INFO: Loading problem   BDQRTIC     from "s2mpj".
+
+INFO: Start  solving    BDQRTIC     with prima_double (run  1/ 1).
+INFO: Finish solving    BDQRTIC     with prima_double (run  1/ 1) in 2.93 seconds.
+INFO: Output result for BDQRTIC     with prima_double (run  1/ 1): f = 1.8281e+01.
+INFO: Best   result for BDQRTIC     with prima_double (run  1/ 1): f = 1.8281e+01.
+
+INFO: Start  solving    BDQRTIC     with prima_single (run  1/ 1).
+INFO: Finish solving    BDQRTIC     with prima_single (run  1/ 1) in 2.27 seconds.
+INFO: Output result for BDQRTIC     with prima_single (run  1/ 1): f = 1.8281e+01.
+INFO: Best   result for BDQRTIC     with prima_single (run  1/ 1): f = 1.8281e+01.
+
+INFO: Loading problem   BEALE       from "s2mpj".
+
+INFO: Start  solving    BEALE       with prima_double (run  1/ 1).
+INFO: Finish solving    BEALE       with prima_double (run  1/ 1) in 0.25 seconds.
+INFO: Output result for BEALE       with prima_double (run  1/ 1): f = 6.8690e-18.
+INFO: Best   result for BEALE       with prima_double (run  1/ 1): f = 6.8690e-18.
+
+INFO: Start  solving    BEALE       with prima_single (run  1/ 1).
+INFO: Finish solving    BEALE       with prima_single (run  1/ 1) in 0.25 seconds.
+INFO: Output result for BEALE       with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for BEALE       with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   BENNETT5LS  from "s2mpj".
+
+INFO: Start  solving    BENNETT5LS  with prima_double (run  1/ 1).
+INFO: Finish solving    BENNETT5LS  with prima_double (run  1/ 1) in 4.48 seconds.
+INFO: Output result for BENNETT5LS  with prima_double (run  1/ 1): f = 5.3422e-04.
+INFO: Best   result for BENNETT5LS  with prima_double (run  1/ 1): f = 5.3422e-04.
+
+INFO: Start  solving    BENNETT5LS  with prima_single (run  1/ 1).
+INFO: Finish solving    BENNETT5LS  with prima_single (run  1/ 1) in 1.06 seconds.
+INFO: Output result for BENNETT5LS  with prima_single (run  1/ 1): f = 5.3875e-04.
+INFO: Best   result for BENNETT5LS  with prima_single (run  1/ 1): f = 5.3875e-04.
+
+INFO: Loading problem   BIGGS3      from "s2mpj".
+
+INFO: Start  solving    BIGGS3      with prima_double (run  1/ 1).
+INFO: Finish solving    BIGGS3      with prima_double (run  1/ 1) in 0.94 seconds.
+INFO: Output result for BIGGS3      with prima_double (run  1/ 1): f = 7.6209e-22, maxcv = 0.0000e+00.
+INFO: Best   result for BIGGS3      with prima_double (run  1/ 1): f = 7.6209e-22, maxcv = 0.0000e+00.
+
+INFO: Start  solving    BIGGS3      with prima_single (run  1/ 1).
+INFO: Finish solving    BIGGS3      with prima_single (run  1/ 1) in 0.92 seconds.
+INFO: Output result for BIGGS3      with prima_single (run  1/ 1): f = 4.4984e-15, maxcv = 0.0000e+00.
+INFO: Best   result for BIGGS3      with prima_single (run  1/ 1): f = 4.4984e-15, maxcv = 0.0000e+00.
+
+INFO: Loading problem   BIGGS6      from "s2mpj".
+
+INFO: Start  solving    BIGGS6      with prima_double (run  1/ 1).
+INFO: Finish solving    BIGGS6      with prima_double (run  1/ 1) in 3.34 seconds.
+INFO: Output result for BIGGS6      with prima_double (run  1/ 1): f = 3.8544e-20.
+INFO: Best   result for BIGGS6      with prima_double (run  1/ 1): f = 3.8544e-20.
+
+INFO: Start  solving    BIGGS6      with prima_single (run  1/ 1).
+INFO: Finish solving    BIGGS6      with prima_single (run  1/ 1) in 2.45 seconds.
+INFO: Output result for BIGGS6      with prima_single (run  1/ 1): f = 7.3773e-14.
+INFO: Best   result for BIGGS6      with prima_single (run  1/ 1): f = 7.3773e-14.
+
+INFO: Loading problem   BOX2        from "s2mpj".
+
+INFO: Start  solving    BOX2        with prima_double (run  1/ 1).
+INFO: Finish solving    BOX2        with prima_double (run  1/ 1) in 0.35 seconds.
+INFO: Output result for BOX2        with prima_double (run  1/ 1): f = 3.8624e-33, maxcv = 0.0000e+00.
+INFO: Best   result for BOX2        with prima_double (run  1/ 1): f = 3.8624e-33, maxcv = 0.0000e+00.
+
+INFO: Start  solving    BOX2        with prima_single (run  1/ 1).
+INFO: Finish solving    BOX2        with prima_single (run  1/ 1) in 0.37 seconds.
+INFO: Output result for BOX2        with prima_single (run  1/ 1): f = 3.8624e-33, maxcv = 0.0000e+00.
+INFO: Best   result for BOX2        with prima_single (run  1/ 1): f = 3.8624e-33, maxcv = 0.0000e+00.
+
+INFO: Loading problem   BOX3        from "s2mpj".
+
+INFO: Start  solving    BOX3        with prima_double (run  1/ 1).
+INFO: Finish solving    BOX3        with prima_double (run  1/ 1) in 0.34 seconds.
+INFO: Output result for BOX3        with prima_double (run  1/ 1): f = 3.8624e-33.
+INFO: Best   result for BOX3        with prima_double (run  1/ 1): f = 3.8624e-33.
+
+INFO: Start  solving    BOX3        with prima_single (run  1/ 1).
+INFO: Finish solving    BOX3        with prima_single (run  1/ 1) in 0.35 seconds.
+INFO: Output result for BOX3        with prima_single (run  1/ 1): f = 3.8624e-33.
+INFO: Best   result for BOX3        with prima_single (run  1/ 1): f = 3.8624e-33.
+
+INFO: Loading problem   BOXBODLS    from "s2mpj".
+
+INFO: Start  solving    BOXBODLS    with prima_double (run  1/ 1).
+INFO: Finish solving    BOXBODLS    with prima_double (run  1/ 1) in 0.69 seconds.
+INFO: Output result for BOXBODLS    with prima_double (run  1/ 1): f = 1.1680e+03.
+INFO: Best   result for BOXBODLS    with prima_double (run  1/ 1): f = 1.1680e+03.
+
+INFO: Start  solving    BOXBODLS    with prima_single (run  1/ 1).
+INFO: Finish solving    BOXBODLS    with prima_single (run  1/ 1) in 0.23 seconds.
+INFO: Output result for BOXBODLS    with prima_single (run  1/ 1): f = 9.7715e+03.
+INFO: Best   result for BOXBODLS    with prima_single (run  1/ 1): f = 9.7715e+03.
+
+INFO: Loading problem   BRANIN      from "s2mpj".
+
+INFO: Start  solving    BRANIN      with prima_double (run  1/ 1).
+INFO: Finish solving    BRANIN      with prima_double (run  1/ 1) in 0.34 seconds.
+INFO: Output result for BRANIN      with prima_double (run  1/ 1): f = 3.9789e-01, maxcv = 0.0000e+00.
+INFO: Best   result for BRANIN      with prima_double (run  1/ 1): f = 3.9789e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    BRANIN      with prima_single (run  1/ 1).
+INFO: Finish solving    BRANIN      with prima_single (run  1/ 1) in 0.33 seconds.
+INFO: Output result for BRANIN      with prima_single (run  1/ 1): f = 3.9789e-01, maxcv = 0.0000e+00.
+INFO: Best   result for BRANIN      with prima_single (run  1/ 1): f = 3.9789e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   BRATU1D     from "s2mpj".
+
+INFO: Start  solving    BRATU1D     with prima_double (run  1/ 1).
+INFO: Finish solving    BRATU1D     with prima_double (run  1/ 1) in 3.74 seconds.
+INFO: Output result for BRATU1D     with prima_double (run  1/ 1): f = -8.4945e+00, maxcv = 0.0000e+00.
+INFO: Best   result for BRATU1D     with prima_double (run  1/ 1): f = -8.4945e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    BRATU1D     with prima_single (run  1/ 1).
+INFO: Finish solving    BRATU1D     with prima_single (run  1/ 1) in 2.83 seconds.
+INFO: Output result for BRATU1D     with prima_single (run  1/ 1): f = -8.4945e+00, maxcv = 0.0000e+00.
+INFO: Best   result for BRATU1D     with prima_single (run  1/ 1): f = -8.4945e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   BRKMCC      from "s2mpj".
+
+INFO: Start  solving    BRKMCC      with prima_double (run  1/ 1).
+INFO: Finish solving    BRKMCC      with prima_double (run  1/ 1) in 0.12 seconds.
+INFO: Output result for BRKMCC      with prima_double (run  1/ 1): f = 1.6904e-01.
+INFO: Best   result for BRKMCC      with prima_double (run  1/ 1): f = 1.6904e-01.
+
+INFO: Start  solving    BRKMCC      with prima_single (run  1/ 1).
+INFO: Finish solving    BRKMCC      with prima_single (run  1/ 1) in 0.17 seconds.
+INFO: Output result for BRKMCC      with prima_single (run  1/ 1): f = 1.6904e-01.
+INFO: Best   result for BRKMCC      with prima_single (run  1/ 1): f = 1.6904e-01.
+
+INFO: Loading problem   BROWNAL     from "s2mpj".
+
+INFO: Start  solving    BROWNAL     with prima_double (run  1/ 1).
+INFO: Finish solving    BROWNAL     with prima_double (run  1/ 1) in 5.67 seconds.
+INFO: Output result for BROWNAL     with prima_double (run  1/ 1): f = 7.3215e-13.
+INFO: Best   result for BROWNAL     with prima_double (run  1/ 1): f = 7.3215e-13.
+
+INFO: Start  solving    BROWNAL     with prima_single (run  1/ 1).
+INFO: Finish solving    BROWNAL     with prima_single (run  1/ 1) in 6.93 seconds.
+INFO: Output result for BROWNAL     with prima_single (run  1/ 1): f = 3.1538e-11.
+INFO: Best   result for BROWNAL     with prima_single (run  1/ 1): f = 3.1538e-11.
+
+INFO: Loading problem   BROWNBS     from "s2mpj".
+
+INFO: Start  solving    BROWNBS     with prima_double (run  1/ 1).
+INFO: Finish solving    BROWNBS     with prima_double (run  1/ 1) in 0.87 seconds.
+INFO: Output result for BROWNBS     with prima_double (run  1/ 1): f = 3.8363e-14.
+INFO: Best   result for BROWNBS     with prima_double (run  1/ 1): f = 3.8363e-14.
+
+INFO: Start  solving    BROWNBS     with prima_single (run  1/ 1).
+INFO: Finish solving    BROWNBS     with prima_single (run  1/ 1) in 0.84 seconds.
+INFO: Output result for BROWNBS     with prima_single (run  1/ 1): f = 1.6038e-08.
+INFO: Best   result for BROWNBS     with prima_single (run  1/ 1): f = 1.6038e-08.
+
+INFO: Loading problem   BROWNDEN    from "s2mpj".
+
+INFO: Start  solving    BROWNDEN    with prima_double (run  1/ 1).
+INFO: Finish solving    BROWNDEN    with prima_double (run  1/ 1) in 0.56 seconds.
+INFO: Output result for BROWNDEN    with prima_double (run  1/ 1): f = 8.5822e+04.
+INFO: Best   result for BROWNDEN    with prima_double (run  1/ 1): f = 8.5822e+04.
+
+INFO: Start  solving    BROWNDEN    with prima_single (run  1/ 1).
+INFO: Finish solving    BROWNDEN    with prima_single (run  1/ 1) in 0.89 seconds.
+INFO: Output result for BROWNDEN    with prima_single (run  1/ 1): f = 8.5822e+04.
+INFO: Best   result for BROWNDEN    with prima_single (run  1/ 1): f = 8.5822e+04.
+
+INFO: Loading problem   BROYDN3DLS  from "s2mpj".
+
+INFO: Start  solving    BROYDN3DLS  with prima_double (run  1/ 1).
+INFO: Finish solving    BROYDN3DLS  with prima_double (run  1/ 1) in 0.43 seconds.
+INFO: Output result for BROYDN3DLS  with prima_double (run  1/ 1): f = 9.1506e-17.
+INFO: Best   result for BROYDN3DLS  with prima_double (run  1/ 1): f = 9.1506e-17.
+
+INFO: Start  solving    BROYDN3DLS  with prima_single (run  1/ 1).
+INFO: Finish solving    BROYDN3DLS  with prima_single (run  1/ 1) in 0.41 seconds.
+INFO: Output result for BROYDN3DLS  with prima_single (run  1/ 1): f = 6.7938e-13.
+INFO: Best   result for BROYDN3DLS  with prima_single (run  1/ 1): f = 6.7938e-13.
+
+INFO: Loading problem   BROYDNBDLS  from "s2mpj".
+
+INFO: Start  solving    BROYDNBDLS  with prima_double (run  1/ 1).
+INFO: Finish solving    BROYDNBDLS  with prima_double (run  1/ 1) in 3.62 seconds.
+INFO: Output result for BROYDNBDLS  with prima_double (run  1/ 1): f = 6.8703e-12.
+INFO: Best   result for BROYDNBDLS  with prima_double (run  1/ 1): f = 6.8703e-12.
+
+INFO: Start  solving    BROYDNBDLS  with prima_single (run  1/ 1).
+INFO: Finish solving    BROYDNBDLS  with prima_single (run  1/ 1) in 3.97 seconds.
+INFO: Output result for BROYDNBDLS  with prima_single (run  1/ 1): f = 8.8792e-12.
+INFO: Best   result for BROYDNBDLS  with prima_single (run  1/ 1): f = 8.8792e-12.
+
+INFO: Loading problem   BRYBND      from "s2mpj".
+
+INFO: Start  solving    BRYBND      with prima_double (run  1/ 1).
+INFO: Finish solving    BRYBND      with prima_double (run  1/ 1) in 3.60 seconds.
+INFO: Output result for BRYBND      with prima_double (run  1/ 1): f = 6.8703e-12.
+INFO: Best   result for BRYBND      with prima_double (run  1/ 1): f = 6.8703e-12.
+
+INFO: Start  solving    BRYBND      with prima_single (run  1/ 1).
+INFO: Finish solving    BRYBND      with prima_single (run  1/ 1) in 3.94 seconds.
+INFO: Output result for BRYBND      with prima_single (run  1/ 1): f = 8.8792e-12.
+INFO: Best   result for BRYBND      with prima_single (run  1/ 1): f = 8.8792e-12.
+
+INFO: Loading problem   BT1         from "s2mpj".
+
+INFO: Start  solving    BT1         with prima_double (run  1/ 1).
+INFO: Finish solving    BT1         with prima_double (run  1/ 1) in 0.58 seconds.
+INFO: Output result for BT1         with prima_double (run  1/ 1): f = -9.0505e-01, maxcv = 1.0006e-06.
+INFO: Best   result for BT1         with prima_double (run  1/ 1): f = -9.9080e+01, maxcv = 1.0006e-06.
+
+INFO: Start  solving    BT1         with prima_single (run  1/ 1).
+INFO: Finish solving    BT1         with prima_single (run  1/ 1) in 0.52 seconds.
+INFO: Output result for BT1         with prima_single (run  1/ 1): f = -9.0161e-01, maxcv = 9.3100e-07.
+INFO: Best   result for BT1         with prima_single (run  1/ 1): f = -9.9080e+01, maxcv = 9.3100e-07.
+
+INFO: Loading problem   BT10        from "s2mpj".
+
+INFO: Start  solving    BT10        with prima_double (run  1/ 1).
+INFO: Finish solving    BT10        with prima_double (run  1/ 1) in 0.09 seconds.
+INFO: Output result for BT10        with prima_double (run  1/ 1): f = -1.0000e+00, maxcv = 2.1849e-13.
+INFO: Best   result for BT10        with prima_double (run  1/ 1): f = -3.0000e+00, maxcv = 2.1849e-13.
+
+INFO: Start  solving    BT10        with prima_single (run  1/ 1).
+INFO: Finish solving    BT10        with prima_single (run  1/ 1) in 0.05 seconds.
+INFO: Output result for BT10        with prima_single (run  1/ 1): f = -1.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for BT10        with prima_single (run  1/ 1): f = -3.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   BT11        from "s2mpj".
+
+INFO: Start  solving    BT11        with prima_double (run  1/ 1).
+INFO: Finish solving    BT11        with prima_double (run  1/ 1) in 0.34 seconds.
+INFO: Output result for BT11        with prima_double (run  1/ 1): f = 8.2489e-01, maxcv = 1.0329e-08.
+INFO: Best   result for BT11        with prima_double (run  1/ 1): f = 8.0234e-01, maxcv = 9.6104e-14.
+
+INFO: Start  solving    BT11        with prima_single (run  1/ 1).
+INFO: Finish solving    BT11        with prima_single (run  1/ 1) in 0.26 seconds.
+INFO: Output result for BT11        with prima_single (run  1/ 1): f = 8.2489e-01, maxcv = 5.9605e-08.
+INFO: Best   result for BT11        with prima_single (run  1/ 1): f = 7.6191e-01, maxcv = 9.3870e-09.
+
+INFO: Loading problem   BT12        from "s2mpj".
+
+INFO: Start  solving    BT12        with prima_double (run  1/ 1).
+INFO: Finish solving    BT12        with prima_double (run  1/ 1) in 0.74 seconds.
+INFO: Output result for BT12        with prima_double (run  1/ 1): f = 6.1881e+00, maxcv = 7.1893e-09.
+INFO: Best   result for BT12        with prima_double (run  1/ 1): f = 4.9998e+00, maxcv = 2.0931e-13.
+
+INFO: Start  solving    BT12        with prima_single (run  1/ 1).
+INFO: Finish solving    BT12        with prima_single (run  1/ 1) in 0.57 seconds.
+INFO: Output result for BT12        with prima_single (run  1/ 1): f = 6.1881e+00, maxcv = 9.2930e-07.
+INFO: Best   result for BT12        with prima_single (run  1/ 1): f = 4.9998e+00, maxcv = 9.2930e-07.
+
+INFO: Loading problem   BT13        from "s2mpj".
+
+INFO: Start  solving    BT13        with prima_double (run  1/ 1).
+INFO: Finish solving    BT13        with prima_double (run  1/ 1) in 1.37 seconds.
+INFO: Output result for BT13        with prima_double (run  1/ 1): f = -6.1616e-09, maxcv = 1.1544e-08.
+INFO: Best   result for BT13        with prima_double (run  1/ 1): f = -1.8930e+01, maxcv = 5.8615e-11.
+
+INFO: Start  solving    BT13        with prima_single (run  1/ 1).
+INFO: Finish solving    BT13        with prima_single (run  1/ 1) in 1.58 seconds.
+INFO: Output result for BT13        with prima_single (run  1/ 1): f = -2.6787e+01, maxcv = 6.3460e+02.
+INFO: Best   result for BT13        with prima_single (run  1/ 1): f = -1.8129e+05, maxcv = 6.3460e+02.
+
+INFO: Loading problem   BT2         from "s2mpj".
+
+INFO: Start  solving    BT2         with prima_double (run  1/ 1).
+INFO: Finish solving    BT2         with prima_double (run  1/ 1) in 0.26 seconds.
+INFO: Output result for BT2         with prima_double (run  1/ 1): f = 3.2568e-02, maxcv = 9.9920e-13.
+INFO: Best   result for BT2         with prima_double (run  1/ 1): f = 3.1826e-02, maxcv = 4.7429e-13.
+
+INFO: Start  solving    BT2         with prima_single (run  1/ 1).
+INFO: Finish solving    BT2         with prima_single (run  1/ 1) in 0.14 seconds.
+INFO: Output result for BT2         with prima_single (run  1/ 1): f = 3.2568e-02, maxcv = 1.7269e-08.
+INFO: Best   result for BT2         with prima_single (run  1/ 1): f = 3.1787e-02, maxcv = 1.7269e-08.
+
+INFO: Loading problem   BT3         from "s2mpj".
+
+INFO: Start  solving    BT3         with prima_double (run  1/ 1).
+INFO: Finish solving    BT3         with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for BT3         with prima_double (run  1/ 1): f = 4.0930e+00, maxcv = 2.7978e-14.
+INFO: Best   result for BT3         with prima_double (run  1/ 1): f = 3.9048e+00, maxcv = 2.7756e-14.
+
+INFO: Start  solving    BT3         with prima_single (run  1/ 1).
+INFO: Finish solving    BT3         with prima_single (run  1/ 1) in 0.04 seconds.
+INFO: Output result for BT3         with prima_single (run  1/ 1): f = 4.0930e+00, maxcv = 2.9802e-08.
+INFO: Best   result for BT3         with prima_single (run  1/ 1): f = 4.0581e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   BT4         from "s2mpj".
+
+INFO: Start  solving    BT4         with prima_double (run  1/ 1).
+INFO: Finish solving    BT4         with prima_double (run  1/ 1) in 0.16 seconds.
+INFO: Output result for BT4         with prima_double (run  1/ 1): f = -4.5511e+01, maxcv = 7.4999e-09.
+INFO: Best   result for BT4         with prima_double (run  1/ 1): f = -5.7692e+01, maxcv = 4.7962e-14.
+
+INFO: Start  solving    BT4         with prima_single (run  1/ 1).
+INFO: Finish solving    BT4         with prima_single (run  1/ 1) in 0.11 seconds.
+INFO: Output result for BT4         with prima_single (run  1/ 1): f = -4.5511e+01, maxcv = 3.9926e-08.
+INFO: Best   result for BT4         with prima_single (run  1/ 1): f = -5.7693e+01, maxcv = 3.9926e-08.
+
+INFO: Loading problem   BT5         from "s2mpj".
+
+INFO: Start  solving    BT5         with prima_double (run  1/ 1).
+INFO: Finish solving    BT5         with prima_double (run  1/ 1) in 0.16 seconds.
+INFO: Output result for BT5         with prima_double (run  1/ 1): f = 9.6172e+02, maxcv = 7.4999e-09.
+INFO: Best   result for BT5         with prima_double (run  1/ 1): f = 9.4600e+02, maxcv = 9.9476e-14.
+
+INFO: Start  solving    BT5         with prima_single (run  1/ 1).
+INFO: Finish solving    BT5         with prima_single (run  1/ 1) in 0.10 seconds.
+INFO: Output result for BT5         with prima_single (run  1/ 1): f = 9.6172e+02, maxcv = 5.9605e-08.
+INFO: Best   result for BT5         with prima_single (run  1/ 1): f = 9.4600e+02, maxcv = 5.9605e-08.
+
+INFO: Loading problem   BT6         from "s2mpj".
+
+INFO: Start  solving    BT6         with prima_double (run  1/ 1).
+INFO: Finish solving    BT6         with prima_double (run  1/ 1) in 0.33 seconds.
+INFO: Output result for BT6         with prima_double (run  1/ 1): f = 2.7704e-01, maxcv = 3.9669e-11.
+INFO: Best   result for BT6         with prima_double (run  1/ 1): f = 2.5641e-01, maxcv = 2.4434e-12.
+
+INFO: Start  solving    BT6         with prima_single (run  1/ 1).
+INFO: Finish solving    BT6         with prima_single (run  1/ 1) in 0.25 seconds.
+INFO: Output result for BT6         with prima_single (run  1/ 1): f = 2.7704e-01, maxcv = 1.6659e-07.
+INFO: Best   result for BT6         with prima_single (run  1/ 1): f = 2.5641e-01, maxcv = 1.6659e-07.
+
+INFO: Loading problem   BT7         from "s2mpj".
+
+INFO: Start  solving    BT7         with prima_double (run  1/ 1).
+INFO: Finish solving    BT7         with prima_double (run  1/ 1) in 0.34 seconds.
+INFO: Output result for BT7         with prima_double (run  1/ 1): f = 3.0650e+02, maxcv = 7.8019e-09.
+INFO: Best   result for BT7         with prima_double (run  1/ 1): f = 1.4336e-02, maxcv = 1.2821e-12.
+
+INFO: Start  solving    BT7         with prima_single (run  1/ 1).
+INFO: Finish solving    BT7         with prima_single (run  1/ 1) in 0.23 seconds.
+INFO: Output result for BT7         with prima_single (run  1/ 1): f = 3.0650e+02, maxcv = 7.6174e-09.
+INFO: Best   result for BT7         with prima_single (run  1/ 1): f = 1.3851e-02, maxcv = 7.6174e-09.
+
+INFO: Loading problem   BT8         from "s2mpj".
+
+INFO: Start  solving    BT8         with prima_double (run  1/ 1).
+INFO: Finish solving    BT8         with prima_double (run  1/ 1) in 0.30 seconds.
+INFO: Output result for BT8         with prima_double (run  1/ 1): f = 1.0000e+00, maxcv = 1.2288e-08.
+INFO: Best   result for BT8         with prima_double (run  1/ 1): f = 7.2655e-01, maxcv = 5.8389e-13.
+
+INFO: Start  solving    BT8         with prima_single (run  1/ 1).
+INFO: Finish solving    BT8         with prima_single (run  1/ 1) in 0.22 seconds.
+INFO: Output result for BT8         with prima_single (run  1/ 1): f = 1.0000e+00, maxcv = 1.1346e-08.
+INFO: Best   result for BT8         with prima_single (run  1/ 1): f = 7.2655e-01, maxcv = 3.2554e-09.
+
+INFO: Loading problem   BT9         from "s2mpj".
+
+INFO: Start  solving    BT9         with prima_double (run  1/ 1).
+INFO: Finish solving    BT9         with prima_double (run  1/ 1) in 0.29 seconds.
+INFO: Output result for BT9         with prima_double (run  1/ 1): f = -1.0000e+00, maxcv = 5.1989e-09.
+INFO: Best   result for BT9         with prima_double (run  1/ 1): f = -3.0000e+00, maxcv = 1.5552e-12.
+
+INFO: Start  solving    BT9         with prima_single (run  1/ 1).
+INFO: Finish solving    BT9         with prima_single (run  1/ 1) in 0.23 seconds.
+INFO: Output result for BT9         with prima_single (run  1/ 1): f = -1.0000e+00, maxcv = 5.2172e-09.
+INFO: Best   result for BT9         with prima_single (run  1/ 1): f = -3.0000e+00, maxcv = 5.2172e-09.
+
+INFO: Loading problem   BYRDSPHR    from "s2mpj".
+
+INFO: Start  solving    BYRDSPHR    with prima_double (run  1/ 1).
+INFO: Finish solving    BYRDSPHR    with prima_double (run  1/ 1) in 0.18 seconds.
+INFO: Output result for BYRDSPHR    with prima_double (run  1/ 1): f = -4.6833e+00, maxcv = 1.2500e-09.
+INFO: Best   result for BYRDSPHR    with prima_double (run  1/ 1): f = -8.1925e+00, maxcv = 7.9936e-15.
+
+INFO: Start  solving    BYRDSPHR    with prima_single (run  1/ 1).
+INFO: Finish solving    BYRDSPHR    with prima_single (run  1/ 1) in 0.16 seconds.
+INFO: Output result for BYRDSPHR    with prima_single (run  1/ 1): f = -4.6833e+00, maxcv = 1.4324e-07.
+INFO: Best   result for BYRDSPHR    with prima_single (run  1/ 1): f = -8.1929e+00, maxcv = 1.4324e-07.
+
+INFO: Loading problem   CAMEL6      from "s2mpj".
+
+INFO: Start  solving    CAMEL6      with prima_double (run  1/ 1).
+INFO: Finish solving    CAMEL6      with prima_double (run  1/ 1) in 0.31 seconds.
+INFO: Output result for CAMEL6      with prima_double (run  1/ 1): f = -1.0316e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CAMEL6      with prima_double (run  1/ 1): f = -1.0316e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CAMEL6      with prima_single (run  1/ 1).
+INFO: Finish solving    CAMEL6      with prima_single (run  1/ 1) in 0.30 seconds.
+INFO: Output result for CAMEL6      with prima_single (run  1/ 1): f = -1.0316e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CAMEL6      with prima_single (run  1/ 1): f = -1.0316e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CANTILVR    from "s2mpj".
+
+INFO: Start  solving    CANTILVR    with prima_double (run  1/ 1).
+INFO: Finish solving    CANTILVR    with prima_double (run  1/ 1) in 0.36 seconds.
+INFO: Output result for CANTILVR    with prima_double (run  1/ 1): f = 1.3400e+00, maxcv = 3.8693e-09.
+INFO: Best   result for CANTILVR    with prima_double (run  1/ 1): f = 3.1200e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CANTILVR    with prima_single (run  1/ 1).
+INFO: Finish solving    CANTILVR    with prima_single (run  1/ 1) in 0.28 seconds.
+INFO: Output result for CANTILVR    with prima_single (run  1/ 1): f = 1.3400e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CANTILVR    with prima_single (run  1/ 1): f = 3.1200e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CATENARY    from "s2mpj".
+
+INFO: Start  solving    CATENARY    with prima_double (run  1/ 1).
+INFO: Finish solving    CATENARY    with prima_double (run  1/ 1) in 1.90 seconds.
+INFO: Output result for CATENARY    with prima_double (run  1/ 1): f = -8.1848e+03, maxcv = 2.6822e-09.
+INFO: Best   result for CATENARY    with prima_double (run  1/ 1): f = -3.0197e+04, maxcv = 1.8163e-12.
+
+INFO: Start  solving    CATENARY    with prima_single (run  1/ 1).
+INFO: Finish solving    CATENARY    with prima_single (run  1/ 1) in 0.93 seconds.
+INFO: Output result for CATENARY    with prima_single (run  1/ 1): f = -8.1848e+03, maxcv = 8.9442e-08.
+INFO: Best   result for CATENARY    with prima_single (run  1/ 1): f = -9.0595e+03, maxcv = 8.9442e-08.
+
+INFO: Loading problem   CB2         from "s2mpj".
+
+INFO: Start  solving    CB2         with prima_double (run  1/ 1).
+INFO: Finish solving    CB2         with prima_double (run  1/ 1) in 0.25 seconds.
+INFO: Output result for CB2         with prima_double (run  1/ 1): f = 1.9522e+00, maxcv = 4.6208e-09.
+INFO: Best   result for CB2         with prima_double (run  1/ 1): f = -7.3847e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CB2         with prima_single (run  1/ 1).
+INFO: Finish solving    CB2         with prima_single (run  1/ 1) in 0.19 seconds.
+INFO: Output result for CB2         with prima_single (run  1/ 1): f = 1.9522e+00, maxcv = 8.2604e-09.
+INFO: Best   result for CB2         with prima_single (run  1/ 1): f = -7.3847e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CB3         from "s2mpj".
+
+INFO: Start  solving    CB3         with prima_double (run  1/ 1).
+INFO: Finish solving    CB3         with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for CB3         with prima_double (run  1/ 1): f = 2.0000e+00, maxcv = 3.6771e-13.
+INFO: Best   result for CB3         with prima_double (run  1/ 1): f = 1.3400e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CB3         with prima_single (run  1/ 1).
+INFO: Finish solving    CB3         with prima_single (run  1/ 1) in 0.08 seconds.
+INFO: Output result for CB3         with prima_single (run  1/ 1): f = 2.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CB3         with prima_single (run  1/ 1): f = 1.3400e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CHACONN1    from "s2mpj".
+
+INFO: Start  solving    CHACONN1    with prima_double (run  1/ 1).
+INFO: Finish solving    CHACONN1    with prima_double (run  1/ 1) in 0.21 seconds.
+INFO: Output result for CHACONN1    with prima_double (run  1/ 1): f = 1.9522e+00, maxcv = 4.6195e-09.
+INFO: Best   result for CHACONN1    with prima_double (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CHACONN1    with prima_single (run  1/ 1).
+INFO: Finish solving    CHACONN1    with prima_single (run  1/ 1) in 0.16 seconds.
+INFO: Output result for CHACONN1    with prima_single (run  1/ 1): f = 1.9522e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CHACONN1    with prima_single (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CHACONN2    from "s2mpj".
+
+INFO: Start  solving    CHACONN2    with prima_double (run  1/ 1).
+INFO: Finish solving    CHACONN2    with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for CHACONN2    with prima_double (run  1/ 1): f = 2.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CHACONN2    with prima_double (run  1/ 1): f = -5.0912e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CHACONN2    with prima_single (run  1/ 1).
+INFO: Finish solving    CHACONN2    with prima_single (run  1/ 1) in 0.08 seconds.
+INFO: Output result for CHACONN2    with prima_single (run  1/ 1): f = 2.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CHACONN2    with prima_single (run  1/ 1): f = -5.0912e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CHENHARK    from "s2mpj".
+
+INFO: Start  solving    CHENHARK    with prima_double (run  1/ 1).
+INFO: Finish solving    CHENHARK    with prima_double (run  1/ 1) in 1.75 seconds.
+INFO: Output result for CHENHARK    with prima_double (run  1/ 1): f = -2.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CHENHARK    with prima_double (run  1/ 1): f = -2.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CHENHARK    with prima_single (run  1/ 1).
+INFO: Finish solving    CHENHARK    with prima_single (run  1/ 1) in 1.89 seconds.
+INFO: Output result for CHENHARK    with prima_single (run  1/ 1): f = -2.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CHENHARK    with prima_single (run  1/ 1): f = -2.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CHNROSNB    from "s2mpj".
+
+INFO: Start  solving    CHNROSNB    with prima_double (run  1/ 1).
+INFO: Finish solving    CHNROSNB    with prima_double (run  1/ 1) in 1.45 seconds.
+INFO: Output result for CHNROSNB    with prima_double (run  1/ 1): f = 2.5129e-16.
+INFO: Best   result for CHNROSNB    with prima_double (run  1/ 1): f = 2.5129e-16.
+
+INFO: Start  solving    CHNROSNB    with prima_single (run  1/ 1).
+INFO: Finish solving    CHNROSNB    with prima_single (run  1/ 1) in 1.53 seconds.
+INFO: Output result for CHNROSNB    with prima_single (run  1/ 1): f = 6.8880e-13.
+INFO: Best   result for CHNROSNB    with prima_single (run  1/ 1): f = 6.8880e-13.
+
+INFO: Loading problem   CHNRSNBM    from "s2mpj".
+
+INFO: Start  solving    CHNRSNBM    with prima_double (run  1/ 1).
+INFO: Finish solving    CHNRSNBM    with prima_double (run  1/ 1) in 1.13 seconds.
+INFO: Output result for CHNRSNBM    with prima_double (run  1/ 1): f = 2.3681e-15.
+INFO: Best   result for CHNRSNBM    with prima_double (run  1/ 1): f = 2.3681e-15.
+
+INFO: Start  solving    CHNRSNBM    with prima_single (run  1/ 1).
+INFO: Finish solving    CHNRSNBM    with prima_single (run  1/ 1) in 1.30 seconds.
+INFO: Output result for CHNRSNBM    with prima_single (run  1/ 1): f = 7.9194e-13.
+INFO: Best   result for CHNRSNBM    with prima_single (run  1/ 1): f = 7.9194e-13.
+
+INFO: Loading problem   CHWIRUT1LS  from "s2mpj".
+
+INFO: Start  solving    CHWIRUT1LS  with prima_double (run  1/ 1).
+INFO: Finish solving    CHWIRUT1LS  with prima_double (run  1/ 1) in 1.09 seconds.
+INFO: Output result for CHWIRUT1LS  with prima_double (run  1/ 1): f = 2.3845e+03.
+INFO: Best   result for CHWIRUT1LS  with prima_double (run  1/ 1): f = 2.3845e+03.
+
+INFO: Start  solving    CHWIRUT1LS  with prima_single (run  1/ 1).
+INFO: Finish solving    CHWIRUT1LS  with prima_single (run  1/ 1) in 0.88 seconds.
+INFO: Output result for CHWIRUT1LS  with prima_single (run  1/ 1): f = 2.3845e+03.
+INFO: Best   result for CHWIRUT1LS  with prima_single (run  1/ 1): f = 2.3845e+03.
+
+INFO: Loading problem   CHWIRUT2LS  from "s2mpj".
+
+INFO: Start  solving    CHWIRUT2LS  with prima_double (run  1/ 1).
+INFO: Finish solving    CHWIRUT2LS  with prima_double (run  1/ 1) in 0.64 seconds.
+INFO: Output result for CHWIRUT2LS  with prima_double (run  1/ 1): f = 5.1305e+02.
+INFO: Best   result for CHWIRUT2LS  with prima_double (run  1/ 1): f = 5.1305e+02.
+
+INFO: Start  solving    CHWIRUT2LS  with prima_single (run  1/ 1).
+INFO: Finish solving    CHWIRUT2LS  with prima_single (run  1/ 1) in 0.70 seconds.
+INFO: Output result for CHWIRUT2LS  with prima_single (run  1/ 1): f = 5.1305e+02.
+INFO: Best   result for CHWIRUT2LS  with prima_single (run  1/ 1): f = 5.1305e+02.
+
+INFO: Loading problem   CLIFF       from "s2mpj".
+
+INFO: Start  solving    CLIFF       with prima_double (run  1/ 1).
+INFO: Finish solving    CLIFF       with prima_double (run  1/ 1) in 0.39 seconds.
+INFO: Output result for CLIFF       with prima_double (run  1/ 1): f = 1.9979e-01.
+INFO: Best   result for CLIFF       with prima_double (run  1/ 1): f = 1.9979e-01.
+
+INFO: Start  solving    CLIFF       with prima_single (run  1/ 1).
+INFO: Finish solving    CLIFF       with prima_single (run  1/ 1) in 0.34 seconds.
+INFO: Output result for CLIFF       with prima_single (run  1/ 1): f = 1.9979e-01.
+INFO: Best   result for CLIFF       with prima_single (run  1/ 1): f = 1.9979e-01.
+
+INFO: Loading problem   CLPLATEA    from "s2mpj".
+
+INFO: Start  solving    CLPLATEA    with prima_double (run  1/ 1).
+INFO: Finish solving    CLPLATEA    with prima_double (run  1/ 1) in 2.39 seconds.
+INFO: Output result for CLPLATEA    with prima_double (run  1/ 1): f = -6.5955e-03, maxcv = 0.0000e+00.
+INFO: Best   result for CLPLATEA    with prima_double (run  1/ 1): f = -6.5955e-03, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CLPLATEA    with prima_single (run  1/ 1).
+INFO: Finish solving    CLPLATEA    with prima_single (run  1/ 1) in 2.40 seconds.
+INFO: Output result for CLPLATEA    with prima_single (run  1/ 1): f = -6.5955e-03, maxcv = 0.0000e+00.
+INFO: Best   result for CLPLATEA    with prima_single (run  1/ 1): f = -6.5955e-03, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CLPLATEB    from "s2mpj".
+
+INFO: Start  solving    CLPLATEB    with prima_double (run  1/ 1).
+INFO: Finish solving    CLPLATEB    with prima_double (run  1/ 1) in 2.45 seconds.
+INFO: Output result for CLPLATEB    with prima_double (run  1/ 1): f = -9.3705e-03, maxcv = 0.0000e+00.
+INFO: Best   result for CLPLATEB    with prima_double (run  1/ 1): f = -9.3705e-03, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CLPLATEB    with prima_single (run  1/ 1).
+INFO: Finish solving    CLPLATEB    with prima_single (run  1/ 1) in 2.48 seconds.
+INFO: Output result for CLPLATEB    with prima_single (run  1/ 1): f = -9.3705e-03, maxcv = 0.0000e+00.
+INFO: Best   result for CLPLATEB    with prima_single (run  1/ 1): f = -9.3705e-03, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CLUSTERLS   from "s2mpj".
+
+INFO: Start  solving    CLUSTERLS   with prima_double (run  1/ 1).
+INFO: Finish solving    CLUSTERLS   with prima_double (run  1/ 1) in 0.27 seconds.
+INFO: Output result for CLUSTERLS   with prima_double (run  1/ 1): f = 2.3878e-20.
+INFO: Best   result for CLUSTERLS   with prima_double (run  1/ 1): f = 2.3878e-20.
+
+INFO: Start  solving    CLUSTERLS   with prima_single (run  1/ 1).
+INFO: Finish solving    CLUSTERLS   with prima_single (run  1/ 1) in 0.25 seconds.
+INFO: Output result for CLUSTERLS   with prima_single (run  1/ 1): f = 6.1928e-18.
+INFO: Best   result for CLUSTERLS   with prima_single (run  1/ 1): f = 6.1928e-18.
+
+INFO: Loading problem   CONGIGMZ    from "s2mpj".
+
+INFO: Start  solving    CONGIGMZ    with prima_double (run  1/ 1).
+INFO: Finish solving    CONGIGMZ    with prima_double (run  1/ 1) in 0.12 seconds.
+INFO: Output result for CONGIGMZ    with prima_double (run  1/ 1): f = 2.8000e+01, maxcv = 3.7278e-09.
+INFO: Best   result for CONGIGMZ    with prima_double (run  1/ 1): f = 2.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CONGIGMZ    with prima_single (run  1/ 1).
+INFO: Finish solving    CONGIGMZ    with prima_single (run  1/ 1) in 0.12 seconds.
+INFO: Output result for CONGIGMZ    with prima_single (run  1/ 1): f = 2.8000e+01, maxcv = 2.3842e-07.
+INFO: Best   result for CONGIGMZ    with prima_single (run  1/ 1): f = 1.9987e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   COOLHANSLS  from "s2mpj".
+
+INFO: Start  solving    COOLHANSLS  with prima_double (run  1/ 1).
+INFO: Finish solving    COOLHANSLS  with prima_double (run  1/ 1) in 9.72 seconds.
+INFO: Output result for COOLHANSLS  with prima_double (run  1/ 1): f = 4.1185e-02.
+INFO: Best   result for COOLHANSLS  with prima_double (run  1/ 1): f = 4.1185e-02.
+
+INFO: Start  solving    COOLHANSLS  with prima_single (run  1/ 1).
+INFO: Finish solving    COOLHANSLS  with prima_single (run  1/ 1) in 9.90 seconds.
+INFO: Output result for COOLHANSLS  with prima_single (run  1/ 1): f = 4.5392e-02.
+INFO: Best   result for COOLHANSLS  with prima_single (run  1/ 1): f = 4.5392e-02.
+
+INFO: Loading problem   COSINE      from "s2mpj".
+
+INFO: Start  solving    COSINE      with prima_double (run  1/ 1).
+INFO: Finish solving    COSINE      with prima_double (run  1/ 1) in 1.06 seconds.
+INFO: Output result for COSINE      with prima_double (run  1/ 1): f = -9.0000e+00.
+INFO: Best   result for COSINE      with prima_double (run  1/ 1): f = -9.0000e+00.
+
+INFO: Start  solving    COSINE      with prima_single (run  1/ 1).
+INFO: Finish solving    COSINE      with prima_single (run  1/ 1) in 0.99 seconds.
+INFO: Output result for COSINE      with prima_single (run  1/ 1): f = -9.0000e+00.
+INFO: Best   result for COSINE      with prima_single (run  1/ 1): f = -9.0000e+00.
+
+INFO: Loading problem   CRAGGLVY    from "s2mpj".
+
+INFO: Start  solving    CRAGGLVY    with prima_double (run  1/ 1).
+INFO: Finish solving    CRAGGLVY    with prima_double (run  1/ 1) in 3.75 seconds.
+INFO: Output result for CRAGGLVY    with prima_double (run  1/ 1): f = 1.8866e+00.
+INFO: Best   result for CRAGGLVY    with prima_double (run  1/ 1): f = 1.8866e+00.
+
+INFO: Start  solving    CRAGGLVY    with prima_single (run  1/ 1).
+INFO: Finish solving    CRAGGLVY    with prima_single (run  1/ 1) in 3.76 seconds.
+INFO: Output result for CRAGGLVY    with prima_single (run  1/ 1): f = 1.8866e+00.
+INFO: Best   result for CRAGGLVY    with prima_single (run  1/ 1): f = 1.8866e+00.
+
+INFO: Loading problem   CRESC4      from "s2mpj".
+
+INFO: Start  solving    CRESC4      with prima_double (run  1/ 1).
+INFO: Finish solving    CRESC4      with prima_double (run  1/ 1) in 7.57 seconds.
+INFO: Output result for CRESC4      with prima_double (run  1/ 1): f = 1.0785e+01, maxcv = 0.0000e+00.
+INFO: Best   result for CRESC4      with prima_double (run  1/ 1): f = 3.0846e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    CRESC4      with prima_single (run  1/ 1).
+INFO: Finish solving    CRESC4      with prima_single (run  1/ 1) in 7.43 seconds.
+INFO: Output result for CRESC4      with prima_single (run  1/ 1): f = 5.1224e+00, maxcv = 0.0000e+00.
+INFO: Best   result for CRESC4      with prima_single (run  1/ 1): f = 3.0677e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   CSFI1       from "s2mpj".
+
+INFO: Start  solving    CSFI1       with prima_double (run  1/ 1).
+INFO: Finish solving    CSFI1       with prima_double (run  1/ 1) in 0.29 seconds.
+INFO: Output result for CSFI1       with prima_double (run  1/ 1): f = -4.9075e+01, maxcv = 1.5258e-09.
+INFO: Best   result for CSFI1       with prima_double (run  1/ 1): f = -5.0811e+01, maxcv = 1.4211e-14.
+
+INFO: Start  solving    CSFI1       with prima_single (run  1/ 1).
+INFO: Finish solving    CSFI1       with prima_single (run  1/ 1) in 0.16 seconds.
+INFO: Output result for CSFI1       with prima_single (run  1/ 1): f = -4.9075e+01, maxcv = 1.5871e-06.
+INFO: Best   result for CSFI1       with prima_single (run  1/ 1): f = -5.1098e+01, maxcv = 1.5871e-06.
+
+INFO: Loading problem   CSFI2       from "s2mpj".
+
+INFO: Start  solving    CSFI2       with prima_double (run  1/ 1).
+INFO: Finish solving    CSFI2       with prima_double (run  1/ 1) in 0.30 seconds.
+INFO: Output result for CSFI2       with prima_double (run  1/ 1): f = 5.5018e+01, maxcv = 8.7504e-09.
+INFO: Best   result for CSFI2       with prima_double (run  1/ 1): f = 5.0000e-01, maxcv = 3.5527e-15.
+
+INFO: Start  solving    CSFI2       with prima_single (run  1/ 1).
+INFO: Finish solving    CSFI2       with prima_single (run  1/ 1) in 0.29 seconds.
+INFO: Output result for CSFI2       with prima_single (run  1/ 1): f = 5.5018e+01, maxcv = 3.5325e-07.
+INFO: Best   result for CSFI2       with prima_single (run  1/ 1): f = -1.5099e+01, maxcv = 3.5325e-07.
+
+INFO: Loading problem   CUBE        from "s2mpj".
+
+INFO: Start  solving    CUBE        with prima_double (run  1/ 1).
+INFO: Finish solving    CUBE        with prima_double (run  1/ 1) in 0.49 seconds.
+INFO: Output result for CUBE        with prima_double (run  1/ 1): f = 4.6088e-20.
+INFO: Best   result for CUBE        with prima_double (run  1/ 1): f = 4.6088e-20.
+
+INFO: Start  solving    CUBE        with prima_single (run  1/ 1).
+INFO: Finish solving    CUBE        with prima_single (run  1/ 1) in 0.55 seconds.
+INFO: Output result for CUBE        with prima_single (run  1/ 1): f = 2.8777e-13.
+INFO: Best   result for CUBE        with prima_single (run  1/ 1): f = 2.8777e-13.
+
+INFO: Loading problem   CURLY10     from "s2mpj".
+
+INFO: Start  solving    CURLY10     with prima_double (run  1/ 1).
+INFO: Finish solving    CURLY10     with prima_double (run  1/ 1) in 9.83 seconds.
+INFO: Output result for CURLY10     with prima_double (run  1/ 1): f = -1.5022e+03.
+INFO: Best   result for CURLY10     with prima_double (run  1/ 1): f = -1.5022e+03.
+
+INFO: Start  solving    CURLY10     with prima_single (run  1/ 1).
+INFO: Finish solving    CURLY10     with prima_single (run  1/ 1) in 7.26 seconds.
+INFO: Output result for CURLY10     with prima_single (run  1/ 1): f = -1.5047e+03.
+INFO: Best   result for CURLY10     with prima_single (run  1/ 1): f = -1.5047e+03.
+
+INFO: Loading problem   CYCLIC3LS   from "s2mpj".
+
+INFO: Start  solving    CYCLIC3LS   with prima_double (run  1/ 1).
+INFO: Finish solving    CYCLIC3LS   with prima_double (run  1/ 1) in 11.93 seconds.
+INFO: Output result for CYCLIC3LS   with prima_double (run  1/ 1): f = 1.1587e+07.
+INFO: Best   result for CYCLIC3LS   with prima_double (run  1/ 1): f = 1.1587e+07.
+
+INFO: Start  solving    CYCLIC3LS   with prima_single (run  1/ 1).
+INFO: Finish solving    CYCLIC3LS   with prima_single (run  1/ 1) in 0.18 seconds.
+INFO: Output result for CYCLIC3LS   with prima_single (run  1/ 1): f = 9.9800e+18.
+INFO: Best   result for CYCLIC3LS   with prima_single (run  1/ 1): f = 9.9740e+18.
+
+INFO: Loading problem   CYCLOOCFLS  from "s2mpj".
+
+INFO: Start  solving    CYCLOOCFLS  with prima_double (run  1/ 1).
+INFO: Finish solving    CYCLOOCFLS  with prima_double (run  1/ 1) in 8.44 seconds.
+INFO: Output result for CYCLOOCFLS  with prima_double (run  1/ 1): f = 1.5625e-12.
+INFO: Best   result for CYCLOOCFLS  with prima_double (run  1/ 1): f = 1.5625e-12.
+
+INFO: Start  solving    CYCLOOCFLS  with prima_single (run  1/ 1).
+INFO: Finish solving    CYCLOOCFLS  with prima_single (run  1/ 1) in 5.99 seconds.
+INFO: Output result for CYCLOOCFLS  with prima_single (run  1/ 1): f = 6.4291e-12.
+INFO: Best   result for CYCLOOCFLS  with prima_single (run  1/ 1): f = 6.4291e-12.
+
+INFO: Loading problem   DANIWOODLS  from "s2mpj".
+
+INFO: Start  solving    DANIWOODLS  with prima_double (run  1/ 1).
+INFO: Finish solving    DANIWOODLS  with prima_double (run  1/ 1) in 0.24 seconds.
+INFO: Output result for DANIWOODLS  with prima_double (run  1/ 1): f = 4.3173e-03.
+INFO: Best   result for DANIWOODLS  with prima_double (run  1/ 1): f = 4.3173e-03.
+
+INFO: Start  solving    DANIWOODLS  with prima_single (run  1/ 1).
+INFO: Finish solving    DANIWOODLS  with prima_single (run  1/ 1) in 0.27 seconds.
+INFO: Output result for DANIWOODLS  with prima_single (run  1/ 1): f = 4.3173e-03.
+INFO: Best   result for DANIWOODLS  with prima_single (run  1/ 1): f = 4.3173e-03.
+
+INFO: Loading problem   DEMYMALO    from "s2mpj".
+
+INFO: Start  solving    DEMYMALO    with prima_double (run  1/ 1).
+INFO: Finish solving    DEMYMALO    with prima_double (run  1/ 1) in 0.09 seconds.
+INFO: Output result for DEMYMALO    with prima_double (run  1/ 1): f = -3.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for DEMYMALO    with prima_double (run  1/ 1): f = -7.4337e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    DEMYMALO    with prima_single (run  1/ 1).
+INFO: Finish solving    DEMYMALO    with prima_single (run  1/ 1) in 0.06 seconds.
+INFO: Output result for DEMYMALO    with prima_single (run  1/ 1): f = -3.0000e+00, maxcv = 1.3556e-08.
+INFO: Best   result for DEMYMALO    with prima_single (run  1/ 1): f = -7.2018e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   DENSCHNA    from "s2mpj".
+
+INFO: Start  solving    DENSCHNA    with prima_double (run  1/ 1).
+INFO: Finish solving    DENSCHNA    with prima_double (run  1/ 1) in 0.14 seconds.
+INFO: Output result for DENSCHNA    with prima_double (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for DENSCHNA    with prima_double (run  1/ 1): f = 0.0000e+00.
+
+INFO: Start  solving    DENSCHNA    with prima_single (run  1/ 1).
+INFO: Finish solving    DENSCHNA    with prima_single (run  1/ 1) in 0.12 seconds.
+INFO: Output result for DENSCHNA    with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for DENSCHNA    with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   DENSCHNB    from "s2mpj".
+
+INFO: Start  solving    DENSCHNB    with prima_double (run  1/ 1).
+INFO: Finish solving    DENSCHNB    with prima_double (run  1/ 1) in 0.14 seconds.
+INFO: Output result for DENSCHNB    with prima_double (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for DENSCHNB    with prima_double (run  1/ 1): f = 0.0000e+00.
+
+INFO: Start  solving    DENSCHNB    with prima_single (run  1/ 1).
+INFO: Finish solving    DENSCHNB    with prima_single (run  1/ 1) in 0.13 seconds.
+INFO: Output result for DENSCHNB    with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for DENSCHNB    with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   DENSCHNC    from "s2mpj".
+
+INFO: Start  solving    DENSCHNC    with prima_double (run  1/ 1).
+INFO: Finish solving    DENSCHNC    with prima_double (run  1/ 1) in 0.29 seconds.
+INFO: Output result for DENSCHNC    with prima_double (run  1/ 1): f = 2.6288e-18.
+INFO: Best   result for DENSCHNC    with prima_double (run  1/ 1): f = 2.6288e-18.
+
+INFO: Start  solving    DENSCHNC    with prima_single (run  1/ 1).
+INFO: Finish solving    DENSCHNC    with prima_single (run  1/ 1) in 0.27 seconds.
+INFO: Output result for DENSCHNC    with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for DENSCHNC    with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   DENSCHND    from "s2mpj".
+
+INFO: Start  solving    DENSCHND    with prima_double (run  1/ 1).
+INFO: Finish solving    DENSCHND    with prima_double (run  1/ 1) in 1.94 seconds.
+INFO: Output result for DENSCHND    with prima_double (run  1/ 1): f = 1.1079e-15.
+INFO: Best   result for DENSCHND    with prima_double (run  1/ 1): f = 1.1079e-15.
+
+INFO: Start  solving    DENSCHND    with prima_single (run  1/ 1).
+INFO: Finish solving    DENSCHND    with prima_single (run  1/ 1) in 2.23 seconds.
+INFO: Output result for DENSCHND    with prima_single (run  1/ 1): f = 4.2296e-17.
+INFO: Best   result for DENSCHND    with prima_single (run  1/ 1): f = 4.2296e-17.
+
+INFO: Loading problem   DENSCHNE    from "s2mpj".
+
+INFO: Start  solving    DENSCHNE    with prima_double (run  1/ 1).
+INFO: Finish solving    DENSCHNE    with prima_double (run  1/ 1) in 0.36 seconds.
+INFO: Output result for DENSCHNE    with prima_double (run  1/ 1): f = 7.8065e-20.
+INFO: Best   result for DENSCHNE    with prima_double (run  1/ 1): f = 7.8065e-20.
+
+INFO: Start  solving    DENSCHNE    with prima_single (run  1/ 1).
+INFO: Finish solving    DENSCHNE    with prima_single (run  1/ 1) in 0.37 seconds.
+INFO: Output result for DENSCHNE    with prima_single (run  1/ 1): f = 2.3386e-15.
+INFO: Best   result for DENSCHNE    with prima_single (run  1/ 1): f = 2.3386e-15.
+
+INFO: Loading problem   DENSCHNF    from "s2mpj".
+
+INFO: Start  solving    DENSCHNF    with prima_double (run  1/ 1).
+INFO: Finish solving    DENSCHNF    with prima_double (run  1/ 1) in 0.16 seconds.
+INFO: Output result for DENSCHNF    with prima_double (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for DENSCHNF    with prima_double (run  1/ 1): f = 0.0000e+00.
+
+INFO: Start  solving    DENSCHNF    with prima_single (run  1/ 1).
+INFO: Finish solving    DENSCHNF    with prima_single (run  1/ 1) in 0.14 seconds.
+INFO: Output result for DENSCHNF    with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for DENSCHNF    with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   DEVGLA1     from "s2mpj".
+
+INFO: Start  solving    DEVGLA1     with prima_double (run  1/ 1).
+INFO: Finish solving    DEVGLA1     with prima_double (run  1/ 1) in 1.57 seconds.
+INFO: Output result for DEVGLA1     with prima_double (run  1/ 1): f = 4.6182e-15.
+INFO: Best   result for DEVGLA1     with prima_double (run  1/ 1): f = 4.6182e-15.
+
+INFO: Start  solving    DEVGLA1     with prima_single (run  1/ 1).
+INFO: Finish solving    DEVGLA1     with prima_single (run  1/ 1) in 1.50 seconds.
+INFO: Output result for DEVGLA1     with prima_single (run  1/ 1): f = 1.1543e-09.
+INFO: Best   result for DEVGLA1     with prima_single (run  1/ 1): f = 1.1543e-09.
+
+INFO: Loading problem   DEVGLA2     from "s2mpj".
+
+INFO: Start  solving    DEVGLA2     with prima_double (run  1/ 1).
+INFO: Finish solving    DEVGLA2     with prima_double (run  1/ 1) in 2.18 seconds.
+INFO: Output result for DEVGLA2     with prima_double (run  1/ 1): f = 2.9546e-16.
+INFO: Best   result for DEVGLA2     with prima_double (run  1/ 1): f = 2.9546e-16.
+
+INFO: Start  solving    DEVGLA2     with prima_single (run  1/ 1).
+INFO: Finish solving    DEVGLA2     with prima_single (run  1/ 1) in 1.71 seconds.
+INFO: Output result for DEVGLA2     with prima_single (run  1/ 1): f = 2.6737e-02.
+INFO: Best   result for DEVGLA2     with prima_single (run  1/ 1): f = 2.6737e-02.
+
+INFO: Loading problem   DEVGLA2B    from "s2mpj".
+
+INFO: Start  solving    DEVGLA2B    with prima_double (run  1/ 1).
+INFO: Finish solving    DEVGLA2B    with prima_double (run  1/ 1) in 1.48 seconds.
+INFO: Output result for DEVGLA2B    with prima_double (run  1/ 1): f = 5.0557e+03, maxcv = 0.0000e+00.
+INFO: Best   result for DEVGLA2B    with prima_double (run  1/ 1): f = 5.0557e+03, maxcv = 0.0000e+00.
+
+INFO: Start  solving    DEVGLA2B    with prima_single (run  1/ 1).
+INFO: Finish solving    DEVGLA2B    with prima_single (run  1/ 1) in 2.10 seconds.
+INFO: Output result for DEVGLA2B    with prima_single (run  1/ 1): f = 5.0557e+03, maxcv = 0.0000e+00.
+INFO: Best   result for DEVGLA2B    with prima_single (run  1/ 1): f = 5.0557e+03, maxcv = 0.0000e+00.
+
+INFO: Loading problem   DGOSPEC     from "s2mpj".
+
+INFO: Start  solving    DGOSPEC     with prima_double (run  1/ 1).
+INFO: Finish solving    DGOSPEC     with prima_double (run  1/ 1) in 0.99 seconds.
+INFO: Output result for DGOSPEC     with prima_double (run  1/ 1): f = -9.9335e+02, maxcv = 0.0000e+00.
+INFO: Best   result for DGOSPEC     with prima_double (run  1/ 1): f = -9.9335e+02, maxcv = 0.0000e+00.
+
+INFO: Start  solving    DGOSPEC     with prima_single (run  1/ 1).
+INFO: Finish solving    DGOSPEC     with prima_single (run  1/ 1) in 1.20 seconds.
+INFO: Output result for DGOSPEC     with prima_single (run  1/ 1): f = -9.9335e+02, maxcv = 0.0000e+00.
+INFO: Best   result for DGOSPEC     with prima_single (run  1/ 1): f = -9.9335e+02, maxcv = 0.0000e+00.
+
+INFO: Loading problem   DIPIGRI     from "s2mpj".
+
+INFO: Start  solving    DIPIGRI     with prima_double (run  1/ 1).
+INFO: Finish solving    DIPIGRI     with prima_double (run  1/ 1) in 1.51 seconds.
+INFO: Output result for DIPIGRI     with prima_double (run  1/ 1): f = 6.8063e+02, maxcv = 3.4490e-11.
+INFO: Best   result for DIPIGRI     with prima_double (run  1/ 1): f = 5.6300e+02, maxcv = 0.0000e+00.
+
+INFO: Start  solving    DIPIGRI     with prima_single (run  1/ 1).
+INFO: Finish solving    DIPIGRI     with prima_single (run  1/ 1) in 0.80 seconds.
+INFO: Output result for DIPIGRI     with prima_single (run  1/ 1): f = 6.8063e+02, maxcv = 0.0000e+00.
+INFO: Best   result for DIPIGRI     with prima_single (run  1/ 1): f = 5.6300e+02, maxcv = 0.0000e+00.
+
+INFO: Loading problem   DIXCHLNG    from "s2mpj".
+
+INFO: Start  solving    DIXCHLNG    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXCHLNG    with prima_double (run  1/ 1) in 1.27 seconds.
+INFO: Output result for DIXCHLNG    with prima_double (run  1/ 1): f = 2.4719e+03, maxcv = 1.3289e-12.
+INFO: Best   result for DIXCHLNG    with prima_double (run  1/ 1): f = 2.4659e+03, maxcv = 0.0000e+00.
+
+INFO: Start  solving    DIXCHLNG    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXCHLNG    with prima_single (run  1/ 1) in 5.12 seconds.
+INFO: Output result for DIXCHLNG    with prima_single (run  1/ 1): f = 3.2919e+03, maxcv = 1.3099e-07.
+INFO: Best   result for DIXCHLNG    with prima_single (run  1/ 1): f = 3.2002e+03, maxcv = 0.0000e+00.
+
+INFO: Loading problem   DIXCHLNV    from "s2mpj".
+
+INFO: Start  solving    DIXCHLNV    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXCHLNV    with prima_double (run  1/ 1) in 2.24 seconds.
+INFO: Output result for DIXCHLNV    with prima_double (run  1/ 1): f = 1.3485e-09, maxcv = 3.9487e-12.
+INFO: Best   result for DIXCHLNV    with prima_double (run  1/ 1): f = 1.3485e-09, maxcv = 2.2204e-16.
+
+INFO: Start  solving    DIXCHLNV    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXCHLNV    with prima_single (run  1/ 1) in 10.00 seconds.
+INFO: Output result for DIXCHLNV    with prima_single (run  1/ 1): f = 2.8276e+01, maxcv = 1.3348e-07.
+INFO: Best   result for DIXCHLNV    with prima_single (run  1/ 1): f = 7.5805e+00, maxcv = 2.2204e-16.
+
+INFO: Loading problem   DIXMAANA1   from "s2mpj".
+
+INFO: Start  solving    DIXMAANA1   with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANA1   with prima_double (run  1/ 1) in 1.36 seconds.
+INFO: Output result for DIXMAANA1   with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANA1   with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANA1   with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANA1   with prima_single (run  1/ 1) in 2.86 seconds.
+INFO: Output result for DIXMAANA1   with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANA1   with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANB    from "s2mpj".
+
+INFO: Start  solving    DIXMAANB    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANB    with prima_double (run  1/ 1) in 1.20 seconds.
+INFO: Output result for DIXMAANB    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANB    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANB    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANB    with prima_single (run  1/ 1) in 1.25 seconds.
+INFO: Output result for DIXMAANB    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANB    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANC    from "s2mpj".
+
+INFO: Start  solving    DIXMAANC    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANC    with prima_double (run  1/ 1) in 1.44 seconds.
+INFO: Output result for DIXMAANC    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANC    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANC    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANC    with prima_single (run  1/ 1) in 1.46 seconds.
+INFO: Output result for DIXMAANC    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANC    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAAND    from "s2mpj".
+
+INFO: Start  solving    DIXMAAND    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAAND    with prima_double (run  1/ 1) in 3.07 seconds.
+INFO: Output result for DIXMAAND    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAAND    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAAND    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAAND    with prima_single (run  1/ 1) in 3.09 seconds.
+INFO: Output result for DIXMAAND    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAAND    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANE1   from "s2mpj".
+
+INFO: Start  solving    DIXMAANE1   with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANE1   with prima_double (run  1/ 1) in 1.73 seconds.
+INFO: Output result for DIXMAANE1   with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANE1   with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANE1   with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANE1   with prima_single (run  1/ 1) in 1.49 seconds.
+INFO: Output result for DIXMAANE1   with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANE1   with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANF    from "s2mpj".
+
+INFO: Start  solving    DIXMAANF    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANF    with prima_double (run  1/ 1) in 2.14 seconds.
+INFO: Output result for DIXMAANF    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANF    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANF    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANF    with prima_single (run  1/ 1) in 1.50 seconds.
+INFO: Output result for DIXMAANF    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANF    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANG    from "s2mpj".
+
+INFO: Start  solving    DIXMAANG    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANG    with prima_double (run  1/ 1) in 3.40 seconds.
+INFO: Output result for DIXMAANG    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANG    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANG    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANG    with prima_single (run  1/ 1) in 2.62 seconds.
+INFO: Output result for DIXMAANG    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANG    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANH    from "s2mpj".
+
+INFO: Start  solving    DIXMAANH    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANH    with prima_double (run  1/ 1) in 4.33 seconds.
+INFO: Output result for DIXMAANH    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANH    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANH    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANH    with prima_single (run  1/ 1) in 3.45 seconds.
+INFO: Output result for DIXMAANH    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANH    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANI1   from "s2mpj".
+
+INFO: Start  solving    DIXMAANI1   with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANI1   with prima_double (run  1/ 1) in 7.24 seconds.
+INFO: Output result for DIXMAANI1   with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANI1   with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANI1   with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANI1   with prima_single (run  1/ 1) in 3.22 seconds.
+INFO: Output result for DIXMAANI1   with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANI1   with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANJ    from "s2mpj".
+
+INFO: Start  solving    DIXMAANJ    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANJ    with prima_double (run  1/ 1) in 5.31 seconds.
+INFO: Output result for DIXMAANJ    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANJ    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANJ    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANJ    with prima_single (run  1/ 1) in 5.30 seconds.
+INFO: Output result for DIXMAANJ    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANJ    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANK    from "s2mpj".
+
+INFO: Start  solving    DIXMAANK    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANK    with prima_double (run  1/ 1) in 5.87 seconds.
+INFO: Output result for DIXMAANK    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANK    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANK    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANK    with prima_single (run  1/ 1) in 4.25 seconds.
+INFO: Output result for DIXMAANK    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANK    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANL    from "s2mpj".
+
+INFO: Start  solving    DIXMAANL    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANL    with prima_double (run  1/ 1) in 6.62 seconds.
+INFO: Output result for DIXMAANL    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANL    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANL    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANL    with prima_single (run  1/ 1) in 4.66 seconds.
+INFO: Output result for DIXMAANL    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANL    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANM1   from "s2mpj".
+
+INFO: Start  solving    DIXMAANM1   with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANM1   with prima_double (run  1/ 1) in 3.23 seconds.
+INFO: Output result for DIXMAANM1   with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANM1   with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANM1   with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANM1   with prima_single (run  1/ 1) in 2.43 seconds.
+INFO: Output result for DIXMAANM1   with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANM1   with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANN    from "s2mpj".
+
+INFO: Start  solving    DIXMAANN    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANN    with prima_double (run  1/ 1) in 4.21 seconds.
+INFO: Output result for DIXMAANN    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANN    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANN    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANN    with prima_single (run  1/ 1) in 2.52 seconds.
+INFO: Output result for DIXMAANN    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANN    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANO    from "s2mpj".
+
+INFO: Start  solving    DIXMAANO    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANO    with prima_double (run  1/ 1) in 4.51 seconds.
+INFO: Output result for DIXMAANO    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANO    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANO    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANO    with prima_single (run  1/ 1) in 2.87 seconds.
+INFO: Output result for DIXMAANO    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANO    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXMAANP    from "s2mpj".
+
+INFO: Start  solving    DIXMAANP    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXMAANP    with prima_double (run  1/ 1) in 5.32 seconds.
+INFO: Output result for DIXMAANP    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANP    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    DIXMAANP    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXMAANP    with prima_single (run  1/ 1) in 5.45 seconds.
+INFO: Output result for DIXMAANP    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for DIXMAANP    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   DIXON3DQ    from "s2mpj".
+
+INFO: Start  solving    DIXON3DQ    with prima_double (run  1/ 1).
+INFO: Finish solving    DIXON3DQ    with prima_double (run  1/ 1) in 1.46 seconds.
+INFO: Output result for DIXON3DQ    with prima_double (run  1/ 1): f = 8.4407e-14.
+INFO: Best   result for DIXON3DQ    with prima_double (run  1/ 1): f = 8.4407e-14.
+
+INFO: Start  solving    DIXON3DQ    with prima_single (run  1/ 1).
+INFO: Finish solving    DIXON3DQ    with prima_single (run  1/ 1) in 1.58 seconds.
+INFO: Output result for DIXON3DQ    with prima_single (run  1/ 1): f = 6.7502e-14.
+INFO: Best   result for DIXON3DQ    with prima_single (run  1/ 1): f = 6.7502e-14.
+
+INFO: Loading problem   DJTL        from "s2mpj".
+
+INFO: Start  solving    DJTL        with prima_double (run  1/ 1).
+INFO: Finish solving    DJTL        with prima_double (run  1/ 1) in 1.96 seconds.
+INFO: Output result for DJTL        with prima_double (run  1/ 1): f = -8.5001e+03.
+INFO: Best   result for DJTL        with prima_double (run  1/ 1): f = -8.5001e+03.
+
+INFO: Start  solving    DJTL        with prima_single (run  1/ 1).
+INFO: Finish solving    DJTL        with prima_single (run  1/ 1) in 1.93 seconds.
+INFO: Output result for DJTL        with prima_single (run  1/ 1): f = -7.9565e+03.
+INFO: Best   result for DJTL        with prima_single (run  1/ 1): f = -7.9565e+03.
+
+INFO: Loading problem   DQRTIC      from "s2mpj".
+
+INFO: Start  solving    DQRTIC      with prima_double (run  1/ 1).
+INFO: Finish solving    DQRTIC      with prima_double (run  1/ 1) in 4.87 seconds.
+INFO: Output result for DQRTIC      with prima_double (run  1/ 1): f = 1.8995e-24.
+INFO: Best   result for DQRTIC      with prima_double (run  1/ 1): f = 1.8995e-24.
+
+INFO: Start  solving    DQRTIC      with prima_single (run  1/ 1).
+INFO: Finish solving    DQRTIC      with prima_single (run  1/ 1) in 4.96 seconds.
+INFO: Output result for DQRTIC      with prima_single (run  1/ 1): f = 3.1099e-15.
+INFO: Best   result for DQRTIC      with prima_single (run  1/ 1): f = 3.1099e-15.
+
+INFO: Loading problem   DTOC5       from "s2mpj".
+
+INFO: Start  solving    DTOC5       with prima_double (run  1/ 1).
+INFO: Finish solving    DTOC5       with prima_double (run  1/ 1) in 1.77 seconds.
+INFO: Output result for DTOC5       with prima_double (run  1/ 1): f = 1.4519e+00, maxcv = 9.9004e-14.
+INFO: Best   result for DTOC5       with prima_double (run  1/ 1): f = 1.0000e-01, maxcv = 3.3862e-15.
+
+INFO: Start  solving    DTOC5       with prima_single (run  1/ 1).
+INFO: Finish solving    DTOC5       with prima_single (run  1/ 1) in 1.45 seconds.
+INFO: Output result for DTOC5       with prima_single (run  1/ 1): f = 1.4519e+00, maxcv = 5.1043e-08.
+INFO: Best   result for DTOC5       with prima_single (run  1/ 1): f = 1.0000e-01, maxcv = 5.1043e-08.
+
+INFO: Loading problem   ECKERLE4LS  from "s2mpj".
+
+INFO: Start  solving    ECKERLE4LS  with prima_double (run  1/ 1).
+INFO: Finish solving    ECKERLE4LS  with prima_double (run  1/ 1) in 0.61 seconds.
+INFO: Output result for ECKERLE4LS  with prima_double (run  1/ 1): f = 1.4636e-03.
+INFO: Best   result for ECKERLE4LS  with prima_double (run  1/ 1): f = 1.4636e-03.
+
+INFO: Start  solving    ECKERLE4LS  with prima_single (run  1/ 1).
+INFO: Finish solving    ECKERLE4LS  with prima_single (run  1/ 1) in 0.44 seconds.
+INFO: Output result for ECKERLE4LS  with prima_single (run  1/ 1): f = 6.9970e-01.
+INFO: Best   result for ECKERLE4LS  with prima_single (run  1/ 1): f = 6.9970e-01.
+
+INFO: Loading problem   EDENSCH     from "s2mpj".
+
+INFO: Start  solving    EDENSCH     with prima_double (run  1/ 1).
+INFO: Finish solving    EDENSCH     with prima_double (run  1/ 1) in 2.09 seconds.
+INFO: Output result for EDENSCH     with prima_double (run  1/ 1): f = 6.3285e+01.
+INFO: Best   result for EDENSCH     with prima_double (run  1/ 1): f = 6.3285e+01.
+
+INFO: Start  solving    EDENSCH     with prima_single (run  1/ 1).
+INFO: Finish solving    EDENSCH     with prima_single (run  1/ 1) in 3.63 seconds.
+INFO: Output result for EDENSCH     with prima_single (run  1/ 1): f = 6.3285e+01.
+INFO: Best   result for EDENSCH     with prima_single (run  1/ 1): f = 6.3285e+01.
+
+INFO: Loading problem   EG1         from "s2mpj".
+
+INFO: Start  solving    EG1         with prima_double (run  1/ 1).
+INFO: Finish solving    EG1         with prima_double (run  1/ 1) in 0.40 seconds.
+INFO: Output result for EG1         with prima_double (run  1/ 1): f = -1.1328e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EG1         with prima_double (run  1/ 1): f = -1.1328e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EG1         with prima_single (run  1/ 1).
+INFO: Finish solving    EG1         with prima_single (run  1/ 1) in 0.40 seconds.
+INFO: Output result for EG1         with prima_single (run  1/ 1): f = -1.1328e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EG1         with prima_single (run  1/ 1): f = -1.1328e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   EG2         from "s2mpj".
+
+INFO: Start  solving    EG2         with prima_double (run  1/ 1).
+INFO: Finish solving    EG2         with prima_double (run  1/ 1) in 3.27 seconds.
+INFO: Output result for EG2         with prima_double (run  1/ 1): f = -8.9475e+00.
+INFO: Best   result for EG2         with prima_double (run  1/ 1): f = -8.9475e+00.
+
+INFO: Start  solving    EG2         with prima_single (run  1/ 1).
+INFO: Finish solving    EG2         with prima_single (run  1/ 1) in 0.57 seconds.
+INFO: Output result for EG2         with prima_single (run  1/ 1): f = -8.9475e+00.
+INFO: Best   result for EG2         with prima_single (run  1/ 1): f = -8.9475e+00.
+
+INFO: Loading problem   EGGCRATE    from "s2mpj".
+
+INFO: Start  solving    EGGCRATE    with prima_double (run  1/ 1).
+INFO: Finish solving    EGGCRATE    with prima_double (run  1/ 1) in 0.12 seconds.
+INFO: Output result for EGGCRATE    with prima_double (run  1/ 1): f = 9.4882e+00.
+INFO: Best   result for EGGCRATE    with prima_double (run  1/ 1): f = 9.4882e+00.
+
+INFO: Start  solving    EGGCRATE    with prima_single (run  1/ 1).
+INFO: Finish solving    EGGCRATE    with prima_single (run  1/ 1) in 0.17 seconds.
+INFO: Output result for EGGCRATE    with prima_single (run  1/ 1): f = 9.4882e+00.
+INFO: Best   result for EGGCRATE    with prima_single (run  1/ 1): f = 9.4882e+00.
+
+INFO: Loading problem   EGGCRATEB   from "s2mpj".
+
+INFO: Start  solving    EGGCRATEB   with prima_double (run  1/ 1).
+INFO: Finish solving    EGGCRATEB   with prima_double (run  1/ 1) in 0.38 seconds.
+INFO: Output result for EGGCRATEB   with prima_double (run  1/ 1): f = 9.4882e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EGGCRATEB   with prima_double (run  1/ 1): f = 9.4882e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EGGCRATEB   with prima_single (run  1/ 1).
+INFO: Finish solving    EGGCRATEB   with prima_single (run  1/ 1) in 0.39 seconds.
+INFO: Output result for EGGCRATEB   with prima_single (run  1/ 1): f = 9.4882e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EGGCRATEB   with prima_single (run  1/ 1): f = 9.4882e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   EIGENA2     from "s2mpj".
+
+INFO: Start  solving    EIGENA2     with prima_double (run  1/ 1).
+INFO: Finish solving    EIGENA2     with prima_double (run  1/ 1) in 0.15 seconds.
+INFO: Output result for EIGENA2     with prima_double (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EIGENA2     with prima_double (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EIGENA2     with prima_single (run  1/ 1).
+INFO: Finish solving    EIGENA2     with prima_single (run  1/ 1) in 0.12 seconds.
+INFO: Output result for EIGENA2     with prima_single (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EIGENA2     with prima_single (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   EIGENACO    from "s2mpj".
+
+INFO: Start  solving    EIGENACO    with prima_double (run  1/ 1).
+INFO: Finish solving    EIGENACO    with prima_double (run  1/ 1) in 0.13 seconds.
+INFO: Output result for EIGENACO    with prima_double (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EIGENACO    with prima_double (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EIGENACO    with prima_single (run  1/ 1).
+INFO: Finish solving    EIGENACO    with prima_single (run  1/ 1) in 0.11 seconds.
+INFO: Output result for EIGENACO    with prima_single (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EIGENACO    with prima_single (run  1/ 1): f = 0.0000e+00, maxcv = 0.0000e+00.
+
+INFO: Loading problem   EIGENALS    from "s2mpj".
+
+INFO: Start  solving    EIGENALS    with prima_double (run  1/ 1).
+INFO: Finish solving    EIGENALS    with prima_double (run  1/ 1) in 0.66 seconds.
+INFO: Output result for EIGENALS    with prima_double (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for EIGENALS    with prima_double (run  1/ 1): f = 0.0000e+00.
+
+INFO: Start  solving    EIGENALS    with prima_single (run  1/ 1).
+INFO: Finish solving    EIGENALS    with prima_single (run  1/ 1) in 0.60 seconds.
+INFO: Output result for EIGENALS    with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for EIGENALS    with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   EIGENB2     from "s2mpj".
+
+INFO: Start  solving    EIGENB2     with prima_double (run  1/ 1).
+INFO: Finish solving    EIGENB2     with prima_double (run  1/ 1) in 0.34 seconds.
+INFO: Output result for EIGENB2     with prima_double (run  1/ 1): f = 7.8055e-14, maxcv = 5.8620e-14.
+INFO: Best   result for EIGENB2     with prima_double (run  1/ 1): f = 7.8055e-14, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EIGENB2     with prima_single (run  1/ 1).
+INFO: Finish solving    EIGENB2     with prima_single (run  1/ 1) in 0.28 seconds.
+INFO: Output result for EIGENB2     with prima_single (run  1/ 1): f = 3.7165e-08, maxcv = 3.0555e-08.
+INFO: Best   result for EIGENB2     with prima_single (run  1/ 1): f = 2.2951e-12, maxcv = 0.0000e+00.
+
+INFO: Loading problem   EIGENBCO    from "s2mpj".
+
+INFO: Start  solving    EIGENBCO    with prima_double (run  1/ 1).
+INFO: Finish solving    EIGENBCO    with prima_double (run  1/ 1) in 0.32 seconds.
+INFO: Output result for EIGENBCO    with prima_double (run  1/ 1): f = 9.9994e-01, maxcv = 1.8726e-12.
+INFO: Best   result for EIGENBCO    with prima_double (run  1/ 1): f = 7.4943e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EIGENBCO    with prima_single (run  1/ 1).
+INFO: Finish solving    EIGENBCO    with prima_single (run  1/ 1) in 0.12 seconds.
+INFO: Output result for EIGENBCO    with prima_single (run  1/ 1): f = 1.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EIGENBCO    with prima_single (run  1/ 1): f = 9.2000e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   EIGENBLS    from "s2mpj".
+
+INFO: Start  solving    EIGENBLS    with prima_double (run  1/ 1).
+INFO: Finish solving    EIGENBLS    with prima_double (run  1/ 1) in 1.04 seconds.
+INFO: Output result for EIGENBLS    with prima_double (run  1/ 1): f = 1.7917e-17.
+INFO: Best   result for EIGENBLS    with prima_double (run  1/ 1): f = 1.7917e-17.
+
+INFO: Start  solving    EIGENBLS    with prima_single (run  1/ 1).
+INFO: Finish solving    EIGENBLS    with prima_single (run  1/ 1) in 1.22 seconds.
+INFO: Output result for EIGENBLS    with prima_single (run  1/ 1): f = 5.6357e-14.
+INFO: Best   result for EIGENBLS    with prima_single (run  1/ 1): f = 5.6357e-14.
+
+INFO: Loading problem   EIGMAXA     from "s2mpj".
+
+INFO: Start  solving    EIGMAXA     with prima_double (run  1/ 1).
+INFO: Finish solving    EIGMAXA     with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for EIGMAXA     with prima_double (run  1/ 1): f = -1.0000e+00, maxcv = 1.6653e-14.
+INFO: Best   result for EIGMAXA     with prima_double (run  1/ 1): f = -2.0000e+00, maxcv = 1.6653e-14.
+
+INFO: Start  solving    EIGMAXA     with prima_single (run  1/ 1).
+INFO: Finish solving    EIGMAXA     with prima_single (run  1/ 1) in 0.07 seconds.
+INFO: Output result for EIGMAXA     with prima_single (run  1/ 1): f = -1.0000e+00, maxcv = 9.1359e-10.
+INFO: Best   result for EIGMAXA     with prima_single (run  1/ 1): f = -2.0000e+00, maxcv = 9.1359e-10.
+
+INFO: Loading problem   EIGMINA     from "s2mpj".
+
+INFO: Start  solving    EIGMINA     with prima_double (run  1/ 1).
+INFO: Finish solving    EIGMINA     with prima_double (run  1/ 1) in 0.06 seconds.
+INFO: Output result for EIGMINA     with prima_double (run  1/ 1): f = 1.0000e+00, maxcv = 3.1608e-09.
+INFO: Best   result for EIGMINA     with prima_double (run  1/ 1): f = 9.5105e-01, maxcv = 4.4409e-15.
+
+INFO: Start  solving    EIGMINA     with prima_single (run  1/ 1).
+INFO: Finish solving    EIGMINA     with prima_single (run  1/ 1) in 0.06 seconds.
+INFO: Output result for EIGMINA     with prima_single (run  1/ 1): f = 1.0000e+00, maxcv = 1.3323e-15.
+INFO: Best   result for EIGMINA     with prima_single (run  1/ 1): f = 8.6272e-01, maxcv = 1.3323e-15.
+
+INFO: Loading problem   ELATVIDU    from "s2mpj".
+
+INFO: Start  solving    ELATVIDU    with prima_double (run  1/ 1).
+INFO: Finish solving    ELATVIDU    with prima_double (run  1/ 1) in 0.23 seconds.
+INFO: Output result for ELATVIDU    with prima_double (run  1/ 1): f = 5.4751e+01.
+INFO: Best   result for ELATVIDU    with prima_double (run  1/ 1): f = 5.4751e+01.
+
+INFO: Start  solving    ELATVIDU    with prima_single (run  1/ 1).
+INFO: Finish solving    ELATVIDU    with prima_single (run  1/ 1) in 0.26 seconds.
+INFO: Output result for ELATVIDU    with prima_single (run  1/ 1): f = 5.4751e+01.
+INFO: Best   result for ELATVIDU    with prima_single (run  1/ 1): f = 5.4751e+01.
+
+INFO: Loading problem   ELATVIDUB   from "s2mpj".
+
+INFO: Start  solving    ELATVIDUB   with prima_double (run  1/ 1).
+INFO: Finish solving    ELATVIDUB   with prima_double (run  1/ 1) in 0.67 seconds.
+INFO: Output result for ELATVIDUB   with prima_double (run  1/ 1): f = 5.4751e+01, maxcv = 0.0000e+00.
+INFO: Best   result for ELATVIDUB   with prima_double (run  1/ 1): f = 5.4751e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    ELATVIDUB   with prima_single (run  1/ 1).
+INFO: Finish solving    ELATVIDUB   with prima_single (run  1/ 1) in 0.97 seconds.
+INFO: Output result for ELATVIDUB   with prima_single (run  1/ 1): f = 5.4751e+01, maxcv = 0.0000e+00.
+INFO: Best   result for ELATVIDUB   with prima_single (run  1/ 1): f = 5.4751e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   ENGVAL1     from "s2mpj".
+
+INFO: Start  solving    ENGVAL1     with prima_double (run  1/ 1).
+INFO: Finish solving    ENGVAL1     with prima_double (run  1/ 1) in 2.72 seconds.
+INFO: Output result for ENGVAL1     with prima_double (run  1/ 1): f = 9.1775e+00.
+INFO: Best   result for ENGVAL1     with prima_double (run  1/ 1): f = 9.1775e+00.
+
+INFO: Start  solving    ENGVAL1     with prima_single (run  1/ 1).
+INFO: Finish solving    ENGVAL1     with prima_single (run  1/ 1) in 1.76 seconds.
+INFO: Output result for ENGVAL1     with prima_single (run  1/ 1): f = 9.1775e+00.
+INFO: Best   result for ENGVAL1     with prima_single (run  1/ 1): f = 9.1775e+00.
+
+INFO: Loading problem   ENGVAL2     from "s2mpj".
+
+INFO: Start  solving    ENGVAL2     with prima_double (run  1/ 1).
+INFO: Finish solving    ENGVAL2     with prima_double (run  1/ 1) in 0.56 seconds.
+INFO: Output result for ENGVAL2     with prima_double (run  1/ 1): f = 3.6804e-17.
+INFO: Best   result for ENGVAL2     with prima_double (run  1/ 1): f = 3.6804e-17.
+
+INFO: Start  solving    ENGVAL2     with prima_single (run  1/ 1).
+INFO: Finish solving    ENGVAL2     with prima_single (run  1/ 1) in 0.59 seconds.
+INFO: Output result for ENGVAL2     with prima_single (run  1/ 1): f = 2.3640e-12.
+INFO: Best   result for ENGVAL2     with prima_single (run  1/ 1): f = 2.3640e-12.
+
+INFO: Loading problem   ENSOLS      from "s2mpj".
+
+INFO: Start  solving    ENSOLS      with prima_double (run  1/ 1).
+INFO: Finish solving    ENSOLS      with prima_double (run  1/ 1) in 2.64 seconds.
+INFO: Output result for ENSOLS      with prima_double (run  1/ 1): f = 7.8854e+02.
+INFO: Best   result for ENSOLS      with prima_double (run  1/ 1): f = 7.8854e+02.
+
+INFO: Start  solving    ENSOLS      with prima_single (run  1/ 1).
+INFO: Finish solving    ENSOLS      with prima_single (run  1/ 1) in 2.84 seconds.
+INFO: Output result for ENSOLS      with prima_single (run  1/ 1): f = 7.8854e+02.
+INFO: Best   result for ENSOLS      with prima_single (run  1/ 1): f = 7.8854e+02.
+
+INFO: Loading problem   ERRINROS    from "s2mpj".
+
+INFO: Start  solving    ERRINROS    with prima_double (run  1/ 1).
+INFO: Finish solving    ERRINROS    with prima_double (run  1/ 1) in 9.78 seconds.
+INFO: Output result for ERRINROS    with prima_double (run  1/ 1): f = 6.9343e+00.
+INFO: Best   result for ERRINROS    with prima_double (run  1/ 1): f = 6.9343e+00.
+
+INFO: Start  solving    ERRINROS    with prima_single (run  1/ 1).
+INFO: Finish solving    ERRINROS    with prima_single (run  1/ 1) in 9.77 seconds.
+INFO: Output result for ERRINROS    with prima_single (run  1/ 1): f = 6.9798e+00.
+INFO: Best   result for ERRINROS    with prima_single (run  1/ 1): f = 6.9798e+00.
+
+INFO: Loading problem   ERRINRSM    from "s2mpj".
+
+INFO: Start  solving    ERRINRSM    with prima_double (run  1/ 1).
+INFO: Finish solving    ERRINRSM    with prima_double (run  1/ 1) in 9.86 seconds.
+INFO: Output result for ERRINRSM    with prima_double (run  1/ 1): f = 6.9873e+00.
+INFO: Best   result for ERRINRSM    with prima_double (run  1/ 1): f = 6.9873e+00.
+
+INFO: Start  solving    ERRINRSM    with prima_single (run  1/ 1).
+INFO: Finish solving    ERRINRSM    with prima_single (run  1/ 1) in 9.80 seconds.
+INFO: Output result for ERRINRSM    with prima_single (run  1/ 1): f = 6.9409e+00.
+INFO: Best   result for ERRINRSM    with prima_single (run  1/ 1): f = 6.9409e+00.
+
+INFO: Loading problem   EXP2B       from "s2mpj".
+
+INFO: Start  solving    EXP2B       with prima_double (run  1/ 1).
+INFO: Finish solving    EXP2B       with prima_double (run  1/ 1) in 0.38 seconds.
+INFO: Output result for EXP2B       with prima_double (run  1/ 1): f = 1.1414e-16, maxcv = 0.0000e+00.
+INFO: Best   result for EXP2B       with prima_double (run  1/ 1): f = 1.1414e-16, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EXP2B       with prima_single (run  1/ 1).
+INFO: Finish solving    EXP2B       with prima_single (run  1/ 1) in 0.40 seconds.
+INFO: Output result for EXP2B       with prima_single (run  1/ 1): f = 2.6312e-15, maxcv = 0.0000e+00.
+INFO: Best   result for EXP2B       with prima_single (run  1/ 1): f = 2.6312e-15, maxcv = 0.0000e+00.
+
+INFO: Loading problem   EXPFIT      from "s2mpj".
+
+INFO: Start  solving    EXPFIT      with prima_double (run  1/ 1).
+INFO: Finish solving    EXPFIT      with prima_double (run  1/ 1) in 0.26 seconds.
+INFO: Output result for EXPFIT      with prima_double (run  1/ 1): f = 2.4051e-01.
+INFO: Best   result for EXPFIT      with prima_double (run  1/ 1): f = 2.4051e-01.
+
+INFO: Start  solving    EXPFIT      with prima_single (run  1/ 1).
+INFO: Finish solving    EXPFIT      with prima_single (run  1/ 1) in 0.30 seconds.
+INFO: Output result for EXPFIT      with prima_single (run  1/ 1): f = 2.4051e-01.
+INFO: Best   result for EXPFIT      with prima_single (run  1/ 1): f = 2.4051e-01.
+
+INFO: Loading problem   EXTRASIM    from "s2mpj".
+
+INFO: Start  solving    EXTRASIM    with prima_double (run  1/ 1).
+INFO: Finish solving    EXTRASIM    with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for EXTRASIM    with prima_double (run  1/ 1): f = 1.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for EXTRASIM    with prima_double (run  1/ 1): f = 4.0000e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    EXTRASIM    with prima_single (run  1/ 1).
+INFO: Finish solving    EXTRASIM    with prima_single (run  1/ 1) in 0.05 seconds.
+INFO: Output result for EXTRASIM    with prima_single (run  1/ 1): f = 1.4000e+00, maxcv = 2.9802e-08.
+INFO: Best   result for EXTRASIM    with prima_single (run  1/ 1): f = 4.0000e-01, maxcv = 2.9802e-08.
+
+INFO: Loading problem   EXTROSNB    from "s2mpj".
+
+INFO: Start  solving    EXTROSNB    with prima_double (run  1/ 1).
+INFO: Finish solving    EXTROSNB    with prima_double (run  1/ 1) in 9.67 seconds.
+INFO: Output result for EXTROSNB    with prima_double (run  1/ 1): f = 1.9688e-04.
+INFO: Best   result for EXTROSNB    with prima_double (run  1/ 1): f = 1.9688e-04.
+
+INFO: Start  solving    EXTROSNB    with prima_single (run  1/ 1).
+INFO: Finish solving    EXTROSNB    with prima_single (run  1/ 1) in 9.66 seconds.
+INFO: Output result for EXTROSNB    with prima_single (run  1/ 1): f = 6.2503e-04.
+INFO: Best   result for EXTROSNB    with prima_single (run  1/ 1): f = 6.2503e-04.
+
+INFO: Loading problem   FBRAIN2LS   from "s2mpj".
+
+INFO: Start  solving    FBRAIN2LS   with prima_double (run  1/ 1).
+INFO: Finish solving    FBRAIN2LS   with prima_double (run  1/ 1) in 62.28 seconds.
+INFO: Output result for FBRAIN2LS   with prima_double (run  1/ 1): f = 3.6839e-01, maxcv = 0.0000e+00.
+INFO: Best   result for FBRAIN2LS   with prima_double (run  1/ 1): f = 3.6839e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    FBRAIN2LS   with prima_single (run  1/ 1).
+INFO: Finish solving    FBRAIN2LS   with prima_single (run  1/ 1) in 63.51 seconds.
+INFO: Output result for FBRAIN2LS   with prima_single (run  1/ 1): f = 3.6839e-01, maxcv = 0.0000e+00.
+INFO: Best   result for FBRAIN2LS   with prima_single (run  1/ 1): f = 3.6839e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   FBRAIN3LS   from "s2mpj".
+
+INFO: Start  solving    FBRAIN3LS   with prima_double (run  1/ 1).
+INFO: Finish solving    FBRAIN3LS   with prima_double (run  1/ 1) in 186.53 seconds.
+INFO: Output result for FBRAIN3LS   with prima_double (run  1/ 1): f = 2.6489e-01.
+INFO: Best   result for FBRAIN3LS   with prima_double (run  1/ 1): f = 2.6489e-01.
+
+INFO: Start  solving    FBRAIN3LS   with prima_single (run  1/ 1).
+INFO: Finish solving    FBRAIN3LS   with prima_single (run  1/ 1) in 187.09 seconds.
+INFO: Output result for FBRAIN3LS   with prima_single (run  1/ 1): f = 2.6491e-01.
+INFO: Best   result for FBRAIN3LS   with prima_single (run  1/ 1): f = 2.6491e-01.
+
+INFO: Loading problem   FLETBV3M    from "s2mpj".
+
+INFO: Start  solving    FLETBV3M    with prima_double (run  1/ 1).
+INFO: Finish solving    FLETBV3M    with prima_double (run  1/ 1) in 2.45 seconds.
+INFO: Output result for FLETBV3M    with prima_double (run  1/ 1): f = -2.2309e-03.
+INFO: Best   result for FLETBV3M    with prima_double (run  1/ 1): f = -2.2309e-03.
+
+INFO: Start  solving    FLETBV3M    with prima_single (run  1/ 1).
+INFO: Finish solving    FLETBV3M    with prima_single (run  1/ 1) in 2.00 seconds.
+INFO: Output result for FLETBV3M    with prima_single (run  1/ 1): f = -2.1920e-03.
+INFO: Best   result for FLETBV3M    with prima_single (run  1/ 1): f = -2.1920e-03.
+
+INFO: Loading problem   FLETCBV2    from "s2mpj".
+
+INFO: Start  solving    FLETCBV2    with prima_double (run  1/ 1).
+INFO: Finish solving    FLETCBV2    with prima_double (run  1/ 1) in 1.14 seconds.
+INFO: Output result for FLETCBV2    with prima_double (run  1/ 1): f = -6.1544e-01.
+INFO: Best   result for FLETCBV2    with prima_double (run  1/ 1): f = -6.1544e-01.
+
+INFO: Start  solving    FLETCBV2    with prima_single (run  1/ 1).
+INFO: Finish solving    FLETCBV2    with prima_single (run  1/ 1) in 0.90 seconds.
+INFO: Output result for FLETCBV2    with prima_single (run  1/ 1): f = -6.1544e-01.
+INFO: Best   result for FLETCBV2    with prima_single (run  1/ 1): f = -6.1544e-01.
+
+INFO: Loading problem   FLETCBV3    from "s2mpj".
+
+INFO: Start  solving    FLETCBV3    with prima_double (run  1/ 1).
+INFO: Finish solving    FLETCBV3    with prima_double (run  1/ 1) in 2.20 seconds.
+INFO: Output result for FLETCBV3    with prima_double (run  1/ 1): f = -3.2303e-02.
+INFO: Best   result for FLETCBV3    with prima_double (run  1/ 1): f = -3.2303e-02.
+
+INFO: Start  solving    FLETCBV3    with prima_single (run  1/ 1).
+INFO: Finish solving    FLETCBV3    with prima_single (run  1/ 1) in 5.92 seconds.
+INFO: Output result for FLETCBV3    with prima_single (run  1/ 1): f = -2.8817e-02.
+INFO: Best   result for FLETCBV3    with prima_single (run  1/ 1): f = -2.8817e-02.
+
+INFO: Loading problem   FLETCHBV    from "s2mpj".
+
+INFO: Start  solving    FLETCHBV    with prima_double (run  1/ 1).
+INFO: Finish solving    FLETCHBV    with prima_double (run  1/ 1) in 2.51 seconds.
+INFO: Output result for FLETCHBV    with prima_double (run  1/ 1): f = -2.7222e+06.
+INFO: Best   result for FLETCHBV    with prima_double (run  1/ 1): f = -2.7222e+06.
+
+INFO: Start  solving    FLETCHBV    with prima_single (run  1/ 1).
+INFO: Finish solving    FLETCHBV    with prima_single (run  1/ 1) in 2.89 seconds.
+INFO: Output result for FLETCHBV    with prima_single (run  1/ 1): f = -2.7146e+06.
+INFO: Best   result for FLETCHBV    with prima_single (run  1/ 1): f = -2.7146e+06.
+
+INFO: Loading problem   FLETCHCR    from "s2mpj".
+
+INFO: Start  solving    FLETCHCR    with prima_double (run  1/ 1).
+INFO: Finish solving    FLETCHCR    with prima_double (run  1/ 1) in 3.63 seconds.
+INFO: Output result for FLETCHCR    with prima_double (run  1/ 1): f = 3.4900e-10.
+INFO: Best   result for FLETCHCR    with prima_double (run  1/ 1): f = 3.4900e-10.
+
+INFO: Start  solving    FLETCHCR    with prima_single (run  1/ 1).
+INFO: Finish solving    FLETCHCR    with prima_single (run  1/ 1) in 3.89 seconds.
+INFO: Output result for FLETCHCR    with prima_single (run  1/ 1): f = 1.4841e-10.
+INFO: Best   result for FLETCHCR    with prima_single (run  1/ 1): f = 1.4841e-10.
+
+INFO: Loading problem   FLETCHER    from "s2mpj".
+
+INFO: Start  solving    FLETCHER    with prima_double (run  1/ 1).
+INFO: Finish solving    FLETCHER    with prima_double (run  1/ 1) in 0.26 seconds.
+INFO: Output result for FLETCHER    with prima_double (run  1/ 1): f = 1.1657e+01, maxcv = 9.9992e-09.
+INFO: Best   result for FLETCHER    with prima_double (run  1/ 1): f = 9.2872e-01, maxcv = 2.5757e-14.
+
+INFO: Start  solving    FLETCHER    with prima_single (run  1/ 1).
+INFO: Finish solving    FLETCHER    with prima_single (run  1/ 1) in 0.18 seconds.
+INFO: Output result for FLETCHER    with prima_single (run  1/ 1): f = 1.9525e+01, maxcv = 8.7357e-09.
+INFO: Best   result for FLETCHER    with prima_single (run  1/ 1): f = 1.0000e+00, maxcv = 8.7357e-09.
+
+INFO: Loading problem   FLT         from "s2mpj".
+
+INFO: Start  solving    FLT         with prima_double (run  1/ 1).
+INFO: Finish solving    FLT         with prima_double (run  1/ 1) in 0.11 seconds.
+INFO: Output result for FLT         with prima_double (run  1/ 1): f = 5.3787e-05, maxcv = 1.5210e-14.
+INFO: Best   result for FLT         with prima_double (run  1/ 1): f = 0.0000e+00, maxcv = 4.4761e-16.
+
+INFO: Start  solving    FLT         with prima_single (run  1/ 1).
+INFO: Finish solving    FLT         with prima_single (run  1/ 1) in 0.07 seconds.
+INFO: Output result for FLT         with prima_single (run  1/ 1): f = 5.2676e-05, maxcv = 3.2162e-16.
+INFO: Best   result for FLT         with prima_single (run  1/ 1): f = 0.0000e+00, maxcv = 3.2162e-16.
+
+INFO: Loading problem   FMINSRF2    from "s2mpj".
+
+INFO: Start  solving    FMINSRF2    with prima_double (run  1/ 1).
+INFO: Finish solving    FMINSRF2    with prima_double (run  1/ 1) in 2.90 seconds.
+INFO: Output result for FMINSRF2    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for FMINSRF2    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    FMINSRF2    with prima_single (run  1/ 1).
+INFO: Finish solving    FMINSRF2    with prima_single (run  1/ 1) in 2.59 seconds.
+INFO: Output result for FMINSRF2    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for FMINSRF2    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   FMINSURF    from "s2mpj".
+
+INFO: Start  solving    FMINSURF    with prima_double (run  1/ 1).
+INFO: Finish solving    FMINSURF    with prima_double (run  1/ 1) in 2.38 seconds.
+INFO: Output result for FMINSURF    with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for FMINSURF    with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    FMINSURF    with prima_single (run  1/ 1).
+INFO: Finish solving    FMINSURF    with prima_single (run  1/ 1) in 2.14 seconds.
+INFO: Output result for FMINSURF    with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for FMINSURF    with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   FREUROTH    from "s2mpj".
+
+INFO: Start  solving    FREUROTH    with prima_double (run  1/ 1).
+INFO: Finish solving    FREUROTH    with prima_double (run  1/ 1) in 0.65 seconds.
+INFO: Output result for FREUROTH    with prima_double (run  1/ 1): f = 2.8404e+02.
+INFO: Best   result for FREUROTH    with prima_double (run  1/ 1): f = 2.8404e+02.
+
+INFO: Start  solving    FREUROTH    with prima_single (run  1/ 1).
+INFO: Finish solving    FREUROTH    with prima_single (run  1/ 1) in 0.83 seconds.
+INFO: Output result for FREUROTH    with prima_single (run  1/ 1): f = 2.8404e+02.
+INFO: Best   result for FREUROTH    with prima_single (run  1/ 1): f = 2.8404e+02.
+
+INFO: Loading problem   GAUSS1LS    from "s2mpj".
+
+INFO: Start  solving    GAUSS1LS    with prima_double (run  1/ 1).
+INFO: Finish solving    GAUSS1LS    with prima_double (run  1/ 1) in 8.43 seconds.
+INFO: Output result for GAUSS1LS    with prima_double (run  1/ 1): f = 1.3158e+03.
+INFO: Best   result for GAUSS1LS    with prima_double (run  1/ 1): f = 1.3158e+03.
+
+INFO: Start  solving    GAUSS1LS    with prima_single (run  1/ 1).
+INFO: Finish solving    GAUSS1LS    with prima_single (run  1/ 1) in 8.60 seconds.
+INFO: Output result for GAUSS1LS    with prima_single (run  1/ 1): f = 1.3158e+03.
+INFO: Best   result for GAUSS1LS    with prima_single (run  1/ 1): f = 1.3158e+03.
+
+INFO: Loading problem   GAUSS2LS    from "s2mpj".
+
+INFO: Start  solving    GAUSS2LS    with prima_double (run  1/ 1).
+INFO: Finish solving    GAUSS2LS    with prima_double (run  1/ 1) in 9.58 seconds.
+INFO: Output result for GAUSS2LS    with prima_double (run  1/ 1): f = 1.2475e+03.
+INFO: Best   result for GAUSS2LS    with prima_double (run  1/ 1): f = 1.2475e+03.
+
+INFO: Start  solving    GAUSS2LS    with prima_single (run  1/ 1).
+INFO: Finish solving    GAUSS2LS    with prima_single (run  1/ 1) in 8.92 seconds.
+INFO: Output result for GAUSS2LS    with prima_single (run  1/ 1): f = 1.2475e+03.
+INFO: Best   result for GAUSS2LS    with prima_single (run  1/ 1): f = 1.2475e+03.
+
+INFO: Loading problem   GAUSS3LS    from "s2mpj".
+
+INFO: Start  solving    GAUSS3LS    with prima_double (run  1/ 1).
+INFO: Finish solving    GAUSS3LS    with prima_double (run  1/ 1) in 10.49 seconds.
+INFO: Output result for GAUSS3LS    with prima_double (run  1/ 1): f = 1.2445e+03.
+INFO: Best   result for GAUSS3LS    with prima_double (run  1/ 1): f = 1.2445e+03.
+
+INFO: Start  solving    GAUSS3LS    with prima_single (run  1/ 1).
+INFO: Finish solving    GAUSS3LS    with prima_single (run  1/ 1) in 8.80 seconds.
+INFO: Output result for GAUSS3LS    with prima_single (run  1/ 1): f = 1.2445e+03.
+INFO: Best   result for GAUSS3LS    with prima_single (run  1/ 1): f = 1.2445e+03.
+
+INFO: Loading problem   GAUSSIAN    from "s2mpj".
+
+INFO: Start  solving    GAUSSIAN    with prima_double (run  1/ 1).
+INFO: Finish solving    GAUSSIAN    with prima_double (run  1/ 1) in 0.24 seconds.
+INFO: Output result for GAUSSIAN    with prima_double (run  1/ 1): f = 1.1279e-08.
+INFO: Best   result for GAUSSIAN    with prima_double (run  1/ 1): f = 1.1279e-08.
+
+INFO: Start  solving    GAUSSIAN    with prima_single (run  1/ 1).
+INFO: Finish solving    GAUSSIAN    with prima_single (run  1/ 1) in 0.24 seconds.
+INFO: Output result for GAUSSIAN    with prima_single (run  1/ 1): f = 1.1279e-08.
+INFO: Best   result for GAUSSIAN    with prima_single (run  1/ 1): f = 1.1279e-08.
+
+INFO: Loading problem   GENHS28     from "s2mpj".
+
+INFO: Start  solving    GENHS28     with prima_double (run  1/ 1).
+INFO: Finish solving    GENHS28     with prima_double (run  1/ 1) in 0.07 seconds.
+INFO: Output result for GENHS28     with prima_double (run  1/ 1): f = 9.2717e-01, maxcv = 1.3323e-15.
+INFO: Best   result for GENHS28     with prima_double (run  1/ 1): f = 8.6363e-01, maxcv = 5.5511e-16.
+
+INFO: Start  solving    GENHS28     with prima_single (run  1/ 1).
+INFO: Finish solving    GENHS28     with prima_single (run  1/ 1) in 0.07 seconds.
+INFO: Output result for GENHS28     with prima_single (run  1/ 1): f = 6.2156e+00, maxcv = 1.7881e-07.
+INFO: Best   result for GENHS28     with prima_single (run  1/ 1): f = 7.3892e-01, maxcv = 1.1921e-07.
+
+INFO: Loading problem   GENHUMPS    from "s2mpj".
+
+INFO: Start  solving    GENHUMPS    with prima_double (run  1/ 1).
+INFO: Finish solving    GENHUMPS    with prima_double (run  1/ 1) in 9.88 seconds.
+INFO: Output result for GENHUMPS    with prima_double (run  1/ 1): f = 8.7675e+00.
+INFO: Best   result for GENHUMPS    with prima_double (run  1/ 1): f = 8.7675e+00.
+
+INFO: Start  solving    GENHUMPS    with prima_single (run  1/ 1).
+INFO: Finish solving    GENHUMPS    with prima_single (run  1/ 1) in 9.76 seconds.
+INFO: Output result for GENHUMPS    with prima_single (run  1/ 1): f = 5.1880e+00.
+INFO: Best   result for GENHUMPS    with prima_single (run  1/ 1): f = 5.1880e+00.
+
+INFO: Loading problem   GENROSE     from "s2mpj".
+
+INFO: Start  solving    GENROSE     with prima_double (run  1/ 1).
+INFO: Finish solving    GENROSE     with prima_double (run  1/ 1) in 3.33 seconds.
+INFO: Output result for GENROSE     with prima_double (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for GENROSE     with prima_double (run  1/ 1): f = 1.0000e+00.
+
+INFO: Start  solving    GENROSE     with prima_single (run  1/ 1).
+INFO: Finish solving    GENROSE     with prima_single (run  1/ 1) in 3.32 seconds.
+INFO: Output result for GENROSE     with prima_single (run  1/ 1): f = 1.0000e+00.
+INFO: Best   result for GENROSE     with prima_single (run  1/ 1): f = 1.0000e+00.
+
+INFO: Loading problem   GIGOMEZ1    from "s2mpj".
+
+INFO: Start  solving    GIGOMEZ1    with prima_double (run  1/ 1).
+INFO: Finish solving    GIGOMEZ1    with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for GIGOMEZ1    with prima_double (run  1/ 1): f = -3.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for GIGOMEZ1    with prima_double (run  1/ 1): f = -4.9175e+00, maxcv = 0.0000e+00.
+
+INFO: Start  solving    GIGOMEZ1    with prima_single (run  1/ 1).
+INFO: Finish solving    GIGOMEZ1    with prima_single (run  1/ 1) in 0.05 seconds.
+INFO: Output result for GIGOMEZ1    with prima_single (run  1/ 1): f = -3.0000e+00, maxcv = 8.7913e-08.
+INFO: Best   result for GIGOMEZ1    with prima_single (run  1/ 1): f = -8.2795e+00, maxcv = 8.7913e-08.
+
+INFO: Loading problem   GIGOMEZ2    from "s2mpj".
+
+INFO: Start  solving    GIGOMEZ2    with prima_double (run  1/ 1).
+INFO: Finish solving    GIGOMEZ2    with prima_double (run  1/ 1) in 0.24 seconds.
+INFO: Output result for GIGOMEZ2    with prima_double (run  1/ 1): f = 1.9522e+00, maxcv = 4.6198e-09.
+INFO: Best   result for GIGOMEZ2    with prima_double (run  1/ 1): f = -7.4665e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    GIGOMEZ2    with prima_single (run  1/ 1).
+INFO: Finish solving    GIGOMEZ2    with prima_single (run  1/ 1) in 0.19 seconds.
+INFO: Output result for GIGOMEZ2    with prima_single (run  1/ 1): f = 1.9522e+00, maxcv = 1.3678e-08.
+INFO: Best   result for GIGOMEZ2    with prima_single (run  1/ 1): f = -7.4665e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   GIGOMEZ3    from "s2mpj".
+
+INFO: Start  solving    GIGOMEZ3    with prima_double (run  1/ 1).
+INFO: Finish solving    GIGOMEZ3    with prima_double (run  1/ 1) in 0.09 seconds.
+INFO: Output result for GIGOMEZ3    with prima_double (run  1/ 1): f = 2.0000e+00, maxcv = 2.6645e-15.
+INFO: Best   result for GIGOMEZ3    with prima_double (run  1/ 1): f = 3.9451e-01, maxcv = 2.6645e-15.
+
+INFO: Start  solving    GIGOMEZ3    with prima_single (run  1/ 1).
+INFO: Finish solving    GIGOMEZ3    with prima_single (run  1/ 1) in 0.06 seconds.
+INFO: Output result for GIGOMEZ3    with prima_single (run  1/ 1): f = 2.0000e+00, maxcv = 0.0000e+00.
+INFO: Best   result for GIGOMEZ3    with prima_single (run  1/ 1): f = 3.9451e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   GILBERT     from "s2mpj".
+
+INFO: Start  solving    GILBERT     with prima_double (run  1/ 1).
+INFO: Finish solving    GILBERT     with prima_double (run  1/ 1) in 0.74 seconds.
+INFO: Output result for GILBERT     with prima_double (run  1/ 1): f = 3.3452e+00, maxcv = 7.5253e-09.
+INFO: Best   result for GILBERT     with prima_double (run  1/ 1): f = 1.6397e+00, maxcv = 1.4262e-12.
+
+INFO: Start  solving    GILBERT     with prima_single (run  1/ 1).
+INFO: Finish solving    GILBERT     with prima_single (run  1/ 1) in 0.59 seconds.
+INFO: Output result for GILBERT     with prima_single (run  1/ 1): f = 3.3452e+00, maxcv = 5.1328e-10.
+INFO: Best   result for GILBERT     with prima_single (run  1/ 1): f = 1.6253e+00, maxcv = 5.1328e-10.
+
+INFO: Loading problem   GROWTHLS    from "s2mpj".
+
+INFO: Start  solving    GROWTHLS    with prima_double (run  1/ 1).
+INFO: Finish solving    GROWTHLS    with prima_double (run  1/ 1) in 2.97 seconds.
+INFO: Output result for GROWTHLS    with prima_double (run  1/ 1): f = 2.4855e+00.
+INFO: Best   result for GROWTHLS    with prima_double (run  1/ 1): f = 2.4855e+00.
+
+INFO: Start  solving    GROWTHLS    with prima_single (run  1/ 1).
+INFO: Finish solving    GROWTHLS    with prima_single (run  1/ 1) in 2.91 seconds.
+INFO: Output result for GROWTHLS    with prima_single (run  1/ 1): f = 4.0596e+00.
+INFO: Best   result for GROWTHLS    with prima_single (run  1/ 1): f = 4.0596e+00.
+
+INFO: Loading problem   GULF        from "s2mpj".
+
+INFO: Start  solving    GULF        with prima_double (run  1/ 1).
+INFO: Finish solving    GULF        with prima_double (run  1/ 1) in 1.60 seconds.
+INFO: Output result for GULF        with prima_double (run  1/ 1): f = 1.2716e-23.
+INFO: Best   result for GULF        with prima_double (run  1/ 1): f = 1.2716e-23.
+
+INFO: Start  solving    GULF        with prima_single (run  1/ 1).
+INFO: Finish solving    GULF        with prima_single (run  1/ 1) in 1.64 seconds.
+INFO: Output result for GULF        with prima_single (run  1/ 1): f = 3.3005e-13.
+INFO: Best   result for GULF        with prima_single (run  1/ 1): f = 3.3005e-13.
+
+INFO: Loading problem   HAGER3      from "s2mpj".
+
+INFO: Start  solving    HAGER3      with prima_double (run  1/ 1).
+INFO: Finish solving    HAGER3      with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for HAGER3      with prima_double (run  1/ 1): f = 1.4125e-01, maxcv = 2.7756e-15.
+INFO: Best   result for HAGER3      with prima_double (run  1/ 1): f = 1.1844e-01, maxcv = 1.8874e-15.
+
+INFO: Start  solving    HAGER3      with prima_single (run  1/ 1).
+INFO: Finish solving    HAGER3      with prima_single (run  1/ 1) in 0.10 seconds.
+INFO: Output result for HAGER3      with prima_single (run  1/ 1): f = 1.4125e-01, maxcv = 1.6391e-07.
+INFO: Best   result for HAGER3      with prima_single (run  1/ 1): f = 1.1844e-01, maxcv = 1.0431e-07.
+
+INFO: Loading problem   HAHN1LS     from "s2mpj".
+
+INFO: Start  solving    HAHN1LS     with prima_double (run  1/ 1).
+INFO: Finish solving    HAHN1LS     with prima_double (run  1/ 1) in 13.39 seconds.
+INFO: Output result for HAHN1LS     with prima_double (run  1/ 1): f = 3.2805e+01.
+INFO: Best   result for HAHN1LS     with prima_double (run  1/ 1): f = 3.2805e+01.
+
+INFO: Start  solving    HAHN1LS     with prima_single (run  1/ 1).
+INFO: Finish solving    HAHN1LS     with prima_single (run  1/ 1) in 13.35 seconds.
+INFO: Output result for HAHN1LS     with prima_single (run  1/ 1): f = 3.7267e+01.
+INFO: Best   result for HAHN1LS     with prima_single (run  1/ 1): f = 3.7267e+01.
+
+INFO: Loading problem   HAIFAS      from "s2mpj".
+
+INFO: Start  solving    HAIFAS      with prima_double (run  1/ 1).
+INFO: Finish solving    HAIFAS      with prima_double (run  1/ 1) in 6.62 seconds.
+INFO: Output result for HAIFAS      with prima_double (run  1/ 1): f = -1.0554e-01, maxcv = 1.2816e-08.
+INFO: Best   result for HAIFAS      with prima_double (run  1/ 1): f = -6.7756e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HAIFAS      with prima_single (run  1/ 1).
+INFO: Finish solving    HAIFAS      with prima_single (run  1/ 1) in 4.95 seconds.
+INFO: Output result for HAIFAS      with prima_single (run  1/ 1): f = -1.0554e-01, maxcv = 1.4692e-08.
+INFO: Best   result for HAIFAS      with prima_single (run  1/ 1): f = -6.7756e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HAIRY       from "s2mpj".
+
+INFO: Start  solving    HAIRY       with prima_double (run  1/ 1).
+INFO: Finish solving    HAIRY       with prima_double (run  1/ 1) in 1.05 seconds.
+INFO: Output result for HAIRY       with prima_double (run  1/ 1): f = 2.0000e+01.
+INFO: Best   result for HAIRY       with prima_double (run  1/ 1): f = 2.0000e+01.
+
+INFO: Start  solving    HAIRY       with prima_single (run  1/ 1).
+INFO: Finish solving    HAIRY       with prima_single (run  1/ 1) in 1.15 seconds.
+INFO: Output result for HAIRY       with prima_single (run  1/ 1): f = 2.0000e+01.
+INFO: Best   result for HAIRY       with prima_single (run  1/ 1): f = 2.0000e+01.
+
+INFO: Loading problem   HARKERP2    from "s2mpj".
+
+INFO: Start  solving    HARKERP2    with prima_double (run  1/ 1).
+INFO: Finish solving    HARKERP2    with prima_double (run  1/ 1) in 1.32 seconds.
+INFO: Output result for HARKERP2    with prima_double (run  1/ 1): f = -5.0000e-01, maxcv = 0.0000e+00.
+INFO: Best   result for HARKERP2    with prima_double (run  1/ 1): f = -5.0000e-01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HARKERP2    with prima_single (run  1/ 1).
+INFO: Finish solving    HARKERP2    with prima_single (run  1/ 1) in 1.33 seconds.
+INFO: Output result for HARKERP2    with prima_single (run  1/ 1): f = -5.0000e-01, maxcv = 0.0000e+00.
+INFO: Best   result for HARKERP2    with prima_single (run  1/ 1): f = -5.0000e-01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HATFLDA     from "s2mpj".
+
+INFO: Start  solving    HATFLDA     with prima_double (run  1/ 1).
+INFO: Finish solving    HATFLDA     with prima_double (run  1/ 1) in 2.10 seconds.
+INFO: Output result for HATFLDA     with prima_double (run  1/ 1): f = 6.6418e-17, maxcv = 0.0000e+00.
+INFO: Best   result for HATFLDA     with prima_double (run  1/ 1): f = 6.6418e-17, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HATFLDA     with prima_single (run  1/ 1).
+INFO: Finish solving    HATFLDA     with prima_single (run  1/ 1) in 1.95 seconds.
+INFO: Output result for HATFLDA     with prima_single (run  1/ 1): f = 4.4409e-15, maxcv = 0.0000e+00.
+INFO: Best   result for HATFLDA     with prima_single (run  1/ 1): f = 4.4409e-15, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HATFLDB     from "s2mpj".
+
+INFO: Start  solving    HATFLDB     with prima_double (run  1/ 1).
+INFO: Finish solving    HATFLDB     with prima_double (run  1/ 1) in 0.97 seconds.
+INFO: Output result for HATFLDB     with prima_double (run  1/ 1): f = 5.5728e-03, maxcv = 0.0000e+00.
+INFO: Best   result for HATFLDB     with prima_double (run  1/ 1): f = 5.5728e-03, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HATFLDB     with prima_single (run  1/ 1).
+INFO: Finish solving    HATFLDB     with prima_single (run  1/ 1) in 1.18 seconds.
+INFO: Output result for HATFLDB     with prima_single (run  1/ 1): f = 5.5728e-03, maxcv = 1.1921e-08.
+INFO: Best   result for HATFLDB     with prima_single (run  1/ 1): f = 5.5728e-03, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HATFLDD     from "s2mpj".
+
+INFO: Start  solving    HATFLDD     with prima_double (run  1/ 1).
+INFO: Finish solving    HATFLDD     with prima_double (run  1/ 1) in 0.70 seconds.
+INFO: Output result for HATFLDD     with prima_double (run  1/ 1): f = 6.6151e-08.
+INFO: Best   result for HATFLDD     with prima_double (run  1/ 1): f = 6.6151e-08.
+
+INFO: Start  solving    HATFLDD     with prima_single (run  1/ 1).
+INFO: Finish solving    HATFLDD     with prima_single (run  1/ 1) in 0.71 seconds.
+INFO: Output result for HATFLDD     with prima_single (run  1/ 1): f = 6.6151e-08.
+INFO: Best   result for HATFLDD     with prima_single (run  1/ 1): f = 6.6151e-08.
+
+INFO: Loading problem   HATFLDE     from "s2mpj".
+
+INFO: Start  solving    HATFLDE     with prima_double (run  1/ 1).
+INFO: Finish solving    HATFLDE     with prima_double (run  1/ 1) in 0.63 seconds.
+INFO: Output result for HATFLDE     with prima_double (run  1/ 1): f = 5.1204e-07.
+INFO: Best   result for HATFLDE     with prima_double (run  1/ 1): f = 5.1204e-07.
+
+INFO: Start  solving    HATFLDE     with prima_single (run  1/ 1).
+INFO: Finish solving    HATFLDE     with prima_single (run  1/ 1) in 0.64 seconds.
+INFO: Output result for HATFLDE     with prima_single (run  1/ 1): f = 5.1204e-07.
+INFO: Best   result for HATFLDE     with prima_single (run  1/ 1): f = 5.1204e-07.
+
+INFO: Loading problem   HATFLDFL    from "s2mpj".
+
+INFO: Start  solving    HATFLDFL    with prima_double (run  1/ 1).
+INFO: Finish solving    HATFLDFL    with prima_double (run  1/ 1) in 2.84 seconds.
+INFO: Output result for HATFLDFL    with prima_double (run  1/ 1): f = 6.0962e-05.
+INFO: Best   result for HATFLDFL    with prima_double (run  1/ 1): f = 6.0962e-05.
+
+INFO: Start  solving    HATFLDFL    with prima_single (run  1/ 1).
+INFO: Finish solving    HATFLDFL    with prima_single (run  1/ 1) in 2.83 seconds.
+INFO: Output result for HATFLDFL    with prima_single (run  1/ 1): f = 6.1413e-05.
+INFO: Best   result for HATFLDFL    with prima_single (run  1/ 1): f = 6.1413e-05.
+
+INFO: Loading problem   HATFLDFLS   from "s2mpj".
+
+INFO: Start  solving    HATFLDFLS   with prima_double (run  1/ 1).
+INFO: Finish solving    HATFLDFLS   with prima_double (run  1/ 1) in 2.83 seconds.
+INFO: Output result for HATFLDFLS   with prima_double (run  1/ 1): f = 6.2342e-05.
+INFO: Best   result for HATFLDFLS   with prima_double (run  1/ 1): f = 6.2342e-05.
+
+INFO: Start  solving    HATFLDFLS   with prima_single (run  1/ 1).
+INFO: Finish solving    HATFLDFLS   with prima_single (run  1/ 1) in 2.82 seconds.
+INFO: Output result for HATFLDFLS   with prima_single (run  1/ 1): f = 6.2692e-05.
+INFO: Best   result for HATFLDFLS   with prima_single (run  1/ 1): f = 6.2692e-05.
+
+INFO: Loading problem   HEART6LS    from "s2mpj".
+
+INFO: Start  solving    HEART6LS    with prima_double (run  1/ 1).
+INFO: Finish solving    HEART6LS    with prima_double (run  1/ 1) in 5.96 seconds.
+INFO: Output result for HEART6LS    with prima_double (run  1/ 1): f = 4.0760e-01.
+INFO: Best   result for HEART6LS    with prima_double (run  1/ 1): f = 4.0760e-01.
+
+INFO: Start  solving    HEART6LS    with prima_single (run  1/ 1).
+INFO: Finish solving    HEART6LS    with prima_single (run  1/ 1) in 5.92 seconds.
+INFO: Output result for HEART6LS    with prima_single (run  1/ 1): f = 1.1756e-01.
+INFO: Best   result for HEART6LS    with prima_single (run  1/ 1): f = 1.1756e-01.
+
+INFO: Loading problem   HEART8LS    from "s2mpj".
+
+INFO: Start  solving    HEART8LS    with prima_double (run  1/ 1).
+INFO: Finish solving    HEART8LS    with prima_double (run  1/ 1) in 7.99 seconds.
+INFO: Output result for HEART8LS    with prima_double (run  1/ 1): f = 1.1333e+00.
+INFO: Best   result for HEART8LS    with prima_double (run  1/ 1): f = 1.1333e+00.
+
+INFO: Start  solving    HEART8LS    with prima_single (run  1/ 1).
+INFO: Finish solving    HEART8LS    with prima_single (run  1/ 1) in 6.76 seconds.
+INFO: Output result for HEART8LS    with prima_single (run  1/ 1): f = 7.0322e-13.
+INFO: Best   result for HEART8LS    with prima_single (run  1/ 1): f = 7.0322e-13.
+
+INFO: Loading problem   HELIX       from "s2mpj".
+
+INFO: Start  solving    HELIX       with prima_double (run  1/ 1).
+INFO: Finish solving    HELIX       with prima_double (run  1/ 1) in 0.29 seconds.
+INFO: Output result for HELIX       with prima_double (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for HELIX       with prima_double (run  1/ 1): f = 0.0000e+00.
+
+INFO: Start  solving    HELIX       with prima_single (run  1/ 1).
+INFO: Finish solving    HELIX       with prima_single (run  1/ 1) in 0.38 seconds.
+INFO: Output result for HELIX       with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for HELIX       with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   HILBERTA    from "s2mpj".
+
+INFO: Start  solving    HILBERTA    with prima_double (run  1/ 1).
+INFO: Finish solving    HILBERTA    with prima_double (run  1/ 1) in 11.68 seconds.
+INFO: Output result for HILBERTA    with prima_double (run  1/ 1): f = 3.4116e-07.
+INFO: Best   result for HILBERTA    with prima_double (run  1/ 1): f = 3.4116e-07.
+
+INFO: Start  solving    HILBERTA    with prima_single (run  1/ 1).
+INFO: Finish solving    HILBERTA    with prima_single (run  1/ 1) in 11.47 seconds.
+INFO: Output result for HILBERTA    with prima_single (run  1/ 1): f = 2.4341e-07.
+INFO: Best   result for HILBERTA    with prima_single (run  1/ 1): f = 2.4341e-07.
+
+INFO: Loading problem   HILBERTB    from "s2mpj".
+
+INFO: Start  solving    HILBERTB    with prima_double (run  1/ 1).
+INFO: Finish solving    HILBERTB    with prima_double (run  1/ 1) in 0.39 seconds.
+INFO: Output result for HILBERTB    with prima_double (run  1/ 1): f = 2.0928e-14.
+INFO: Best   result for HILBERTB    with prima_double (run  1/ 1): f = 2.0928e-14.
+
+INFO: Start  solving    HILBERTB    with prima_single (run  1/ 1).
+INFO: Finish solving    HILBERTB    with prima_single (run  1/ 1) in 0.35 seconds.
+INFO: Output result for HILBERTB    with prima_single (run  1/ 1): f = 2.2430e-13.
+INFO: Best   result for HILBERTB    with prima_single (run  1/ 1): f = 2.2430e-13.
+
+INFO: Loading problem   HIMMELBB    from "s2mpj".
+
+INFO: Start  solving    HIMMELBB    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELBB    with prima_double (run  1/ 1) in 0.28 seconds.
+INFO: Output result for HIMMELBB    with prima_double (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for HIMMELBB    with prima_double (run  1/ 1): f = 0.0000e+00.
+
+INFO: Start  solving    HIMMELBB    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELBB    with prima_single (run  1/ 1) in 0.24 seconds.
+INFO: Output result for HIMMELBB    with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for HIMMELBB    with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   HIMMELBCLS  from "s2mpj".
+
+INFO: Start  solving    HIMMELBCLS  with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELBCLS  with prima_double (run  1/ 1) in 0.17 seconds.
+INFO: Output result for HIMMELBCLS  with prima_double (run  1/ 1): f = 4.2811e-14.
+INFO: Best   result for HIMMELBCLS  with prima_double (run  1/ 1): f = 4.2811e-14.
+
+INFO: Start  solving    HIMMELBCLS  with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELBCLS  with prima_single (run  1/ 1) in 0.17 seconds.
+INFO: Output result for HIMMELBCLS  with prima_single (run  1/ 1): f = 0.0000e+00.
+INFO: Best   result for HIMMELBCLS  with prima_single (run  1/ 1): f = 0.0000e+00.
+
+INFO: Loading problem   HIMMELBF    from "s2mpj".
+
+INFO: Start  solving    HIMMELBF    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELBF    with prima_double (run  1/ 1) in 1.19 seconds.
+INFO: Output result for HIMMELBF    with prima_double (run  1/ 1): f = 3.1857e+02.
+INFO: Best   result for HIMMELBF    with prima_double (run  1/ 1): f = 3.1857e+02.
+
+INFO: Start  solving    HIMMELBF    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELBF    with prima_single (run  1/ 1) in 1.15 seconds.
+INFO: Output result for HIMMELBF    with prima_single (run  1/ 1): f = 3.1857e+02.
+INFO: Best   result for HIMMELBF    with prima_single (run  1/ 1): f = 3.1857e+02.
+
+INFO: Loading problem   HIMMELBG    from "s2mpj".
+
+INFO: Start  solving    HIMMELBG    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELBG    with prima_double (run  1/ 1) in 0.16 seconds.
+INFO: Output result for HIMMELBG    with prima_double (run  1/ 1): f = 6.0330e-16.
+INFO: Best   result for HIMMELBG    with prima_double (run  1/ 1): f = 6.0330e-16.
+
+INFO: Start  solving    HIMMELBG    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELBG    with prima_single (run  1/ 1) in 0.17 seconds.
+INFO: Output result for HIMMELBG    with prima_single (run  1/ 1): f = 2.8992e-18.
+INFO: Best   result for HIMMELBG    with prima_single (run  1/ 1): f = 2.8992e-18.
+
+INFO: Loading problem   HIMMELBH    from "s2mpj".
+
+INFO: Start  solving    HIMMELBH    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELBH    with prima_double (run  1/ 1) in 0.13 seconds.
+INFO: Output result for HIMMELBH    with prima_double (run  1/ 1): f = -1.0000e+00.
+INFO: Best   result for HIMMELBH    with prima_double (run  1/ 1): f = -1.0000e+00.
+
+INFO: Start  solving    HIMMELBH    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELBH    with prima_single (run  1/ 1) in 0.17 seconds.
+INFO: Output result for HIMMELBH    with prima_single (run  1/ 1): f = -1.0000e+00.
+INFO: Best   result for HIMMELBH    with prima_single (run  1/ 1): f = -1.0000e+00.
+
+INFO: Loading problem   HIMMELP1    from "s2mpj".
+
+INFO: Start  solving    HIMMELP1    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELP1    with prima_double (run  1/ 1) in 0.42 seconds.
+INFO: Output result for HIMMELP1    with prima_double (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP1    with prima_double (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HIMMELP1    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELP1    with prima_single (run  1/ 1) in 0.38 seconds.
+INFO: Output result for HIMMELP1    with prima_single (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP1    with prima_single (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HIMMELP2    from "s2mpj".
+
+INFO: Start  solving    HIMMELP2    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELP2    with prima_double (run  1/ 1) in 0.17 seconds.
+INFO: Output result for HIMMELP2    with prima_double (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP2    with prima_double (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HIMMELP2    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELP2    with prima_single (run  1/ 1) in 0.08 seconds.
+INFO: Output result for HIMMELP2    with prima_single (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP2    with prima_single (run  1/ 1): f = -6.2054e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HIMMELP3    from "s2mpj".
+
+INFO: Start  solving    HIMMELP3    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELP3    with prima_double (run  1/ 1) in 0.07 seconds.
+INFO: Output result for HIMMELP3    with prima_double (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP3    with prima_double (run  1/ 1): f = -5.9315e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HIMMELP3    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELP3    with prima_single (run  1/ 1) in 0.04 seconds.
+INFO: Output result for HIMMELP3    with prima_single (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP3    with prima_single (run  1/ 1): f = -5.9315e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HIMMELP4    from "s2mpj".
+
+INFO: Start  solving    HIMMELP4    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELP4    with prima_double (run  1/ 1) in 0.07 seconds.
+INFO: Output result for HIMMELP4    with prima_double (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP4    with prima_double (run  1/ 1): f = -5.9331e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HIMMELP4    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELP4    with prima_single (run  1/ 1) in 0.06 seconds.
+INFO: Output result for HIMMELP4    with prima_single (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP4    with prima_single (run  1/ 1): f = -5.9331e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HIMMELP5    from "s2mpj".
+
+INFO: Start  solving    HIMMELP5    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELP5    with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for HIMMELP5    with prima_double (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP5    with prima_double (run  1/ 1): f = -5.9364e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HIMMELP5    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELP5    with prima_single (run  1/ 1) in 0.07 seconds.
+INFO: Output result for HIMMELP5    with prima_single (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP5    with prima_single (run  1/ 1): f = -5.9365e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HIMMELP6    from "s2mpj".
+
+INFO: Start  solving    HIMMELP6    with prima_double (run  1/ 1).
+INFO: Finish solving    HIMMELP6    with prima_double (run  1/ 1) in 0.09 seconds.
+INFO: Output result for HIMMELP6    with prima_double (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP6    with prima_double (run  1/ 1): f = -5.9331e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HIMMELP6    with prima_single (run  1/ 1).
+INFO: Finish solving    HIMMELP6    with prima_single (run  1/ 1) in 0.07 seconds.
+INFO: Output result for HIMMELP6    with prima_single (run  1/ 1): f = -5.9013e+01, maxcv = 0.0000e+00.
+INFO: Best   result for HIMMELP6    with prima_single (run  1/ 1): f = -5.9331e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HONG        from "s2mpj".
+
+INFO: Start  solving    HONG        with prima_double (run  1/ 1).
+INFO: Finish solving    HONG        with prima_double (run  1/ 1) in 0.08 seconds.
+INFO: Output result for HONG        with prima_double (run  1/ 1): f = 2.2571e+01, maxcv = 1.1102e-16.
+INFO: Best   result for HONG        with prima_double (run  1/ 1): f = 1.4419e+01, maxcv = 0.0000e+00.
+
+INFO: Start  solving    HONG        with prima_single (run  1/ 1).
+INFO: Finish solving    HONG        with prima_single (run  1/ 1) in 0.06 seconds.
+INFO: Output result for HONG        with prima_single (run  1/ 1): f = 2.2571e+01, maxcv = 4.4703e-08.
+INFO: Best   result for HONG        with prima_single (run  1/ 1): f = 1.4419e+01, maxcv = 0.0000e+00.
+
+INFO: Loading problem   HS1         from "s2mpj".
+
+INFO: Start  solving    HS1         with prima_double (run  1/ 1).
