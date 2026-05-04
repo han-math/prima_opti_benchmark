@@ -4,8 +4,6 @@ Comprehensive installation, testing, and performance benchmarking of
 [PRIMA](https://github.com/libprima/prima) and
 [OptiProfiler](https://github.com/optiprofiler/optiprofiler) in MATLAB.
 
-**Author:** Han Peiqi, Sun Yat-sen University  
-**Date:** May 2026
 
 ---
 
